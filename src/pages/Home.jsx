@@ -1,5 +1,11 @@
 import React from 'react'
 
+import Flower1 from '../assets/images/flower-1.png'
+import Flower2 from '../assets/images/flower-2.png'
+import Img1 from '../assets/images/hero-2.jpg'
+import Img2 from '../assets/images/hero-3.jpg'
+import Img3 from '../assets/images/hero-4.jpg'
+
 export default function Home() {
     return (
         <div>
@@ -29,21 +35,21 @@ export default function Home() {
 
                 <div class="hero-right">
                     <div class="hero-botanical">
-                        <img />
-                        <div class="hero-photo-stack">
-                            <div class="ph tall">
-                                <img />
-                            </div>
-                            <div class="ph short">
-                                <img />
-                            </div>
-                            <div class="ph short">
-                                <img />
-                            </div>
+                        <img src={Flower1} />
+                    </div>
+                    <div class="hero-photo-stack">
+                        <div class="ph tall">
+                            <img src={Img1} />
+                        </div>
+                        <div class="ph short">
+                            <img src={Img2} />
+                        </div>
+                        <div class="ph short">
+                            <img src={Img3} />
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
 
             <div class="strip">
                 <div class="strip-item"><div class="strip-dot"></div>No Chemicals · No Pesticides · No Herbicides</div>
@@ -55,14 +61,14 @@ export default function Home() {
             <section class="ethos">
                 <div class="ethos-img-wrap">
                     <div class="ethos-main">
-                        <img />
+                        <img src={Img1} />
                     </div>
                     <div class="ethos-accent">
-                        <img />
+                        <img src={Img2} />
                     </div>
                     <div class="ethos-flag">Est. Orton, Ontario</div>
                     <div class="ethos-icon-deco">
-                        <img />
+                        <img src={Flower2} />
                     </div>
                 </div>
                 <div class="ethos-text">
@@ -93,62 +99,56 @@ export default function Home() {
 
                     <div class="svc-card">
                         <div class="svc-num">01</div>
-                        <div class="card-deco">
-                            <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="9"></circle><path d="M12 6v6l3.5 3.5"></path></svg>
-                            <div class="svc-name">Property<br />Maintenance</div>
-                            <p class="svc-desc">Grass cutting, organic garden care, seasonal potters &amp; snow removal — all chemical-free. Customize your yearly membership package.</p>
-                            <a href="#" class="svc-link">View packages &nbsp;</a>
-                        </div>
+                        <div class="card-deco"><img src={Img1} alt="" /></div>
+                        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="9"></circle><path d="M12 6v6l3.5 3.5"></path></svg>
+                        <div class="svc-name">Property<br />Maintenance</div>
+                        <p class="svc-desc">Grass cutting, organic garden care, seasonal potters &amp; snow removal — all chemical-free. Customize your yearly membership package.</p>
+                        <a href="#" class="svc-link">View packages &nbsp;</a>
                     </div>
 
                     <div class="svc-card">
                         <div class="svc-num">02</div>
-                        <div class="card-deco">
-                            <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 21l9-18 9 18H3z"></path><path d="M12 3v18M3 12h18"></path></svg>
-                            <div class="svc-name">Regenerative<br />Landscaping</div>
-                            <p class="svc-desc">Full design, install &amp; maintenance. Perennial gardens, rain gardens, water features &amp; habitat corridors — landscapes that heal the land.</p>
-                            <a href="#" class="svc-link">See our work &nbsp;</a>
-                        </div>
+                        <div class="card-deco"><img src={Img1} alt="" /></div>
+                        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 21l9-18 9 18H3z"></path><path d="M12 3v18M3 12h18"></path></svg>
+                        <div class="svc-name">Regenerative<br />Landscaping</div>
+                        <p class="svc-desc">Full design, install &amp; maintenance. Perennial gardens, rain gardens, water features &amp; habitat corridors — landscapes that heal the land.</p>
+                        <a href="#" class="svc-link">See our work &nbsp;</a>
                     </div>
 
                     <div class="svc-card">
                         <div class="svc-num">03</div>
-                        <div class="card-deco">
-                            <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"></path></svg>
-                            <div class="svc-name">Garden<br />Design</div>
-                            <p class="svc-desc">Native pollinator gardens, woodland shade gardens, medicinal herb gardens &amp; meadows. Rooted in ecology, beautiful to inhabit.</p>
-                            <a href="#" class="svc-link">Browse designs &nbsp;</a>
-                        </div>
+                        <div class="card-deco"><img src={Img1} alt="" /></div>
+                        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"></path></svg>
+                        <div class="svc-name">Garden<br />Design</div>
+                        <p class="svc-desc">Native pollinator gardens, woodland shade gardens, medicinal herb gardens &amp; meadows. Rooted in ecology, beautiful to inhabit.</p>
+                        <a href="#" class="svc-link">Browse designs &nbsp;</a>
                     </div>
 
                     <div class="svc-card">
                         <div class="svc-num">04</div>
-                        <div class="card-deco">
-                            <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M17 8C8 10 5.9 16.2 3.8 22M9.5 15.5C11 12 14 8.5 20 7M9 22c0-5 2-11 8-14"></path></svg>
-                            <div class="svc-name">Permaculture<br />Projects</div>
-                            <p class="svc-desc">Orchards, food forests, edible &amp; medicinal gardens, composting systems. Design, install &amp; ongoing care — your own backyard ecosystem.</p>
-                            <a href="#" class="svc-link">Learn more &nbsp;</a>
-                        </div>
+                        <div class="card-deco"><img src={Img1} alt="" /></div>
+                        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M17 8C8 10 5.9 16.2 3.8 22M9.5 15.5C11 12 14 8.5 20 7M9 22c0-5 2-11 8-14"></path></svg>
+                        <div class="svc-name">Permaculture<br />Projects</div>
+                        <p class="svc-desc">Orchards, food forests, edible &amp; medicinal gardens, composting systems. Design, install &amp; ongoing care — your own backyard ecosystem.</p>
+                        <a href="#" class="svc-link">Learn more &nbsp;</a>
                     </div>
 
                     <div class="svc-card">
                         <div class="svc-num">05</div>
-                        <div class="card-deco">
-                            <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22V12M12 12C12 7 9 4 4 3c0 5 2 8 8 9zM12 12c0-5 3-8 8-9 0 5-2 8-8 9z"></path></svg>
-                            <div class="svc-name">Tree Care<br />&amp; Removal</div>
-                            <p class="svc-desc">Removal, pruning, stump grinding, storm cleanup &amp; trail maintenance. Fully insured. Full-circle — woodchips become mulch, logs become cutting boards. Servicing as far north as Sturgeon Bay.</p>
-                            <a href="#" class="svc-link">Tree services &nbsp;</a>
-                        </div>
+                        <div class="card-deco"><img src={Img1} alt="" /></div>
+                        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22V12M12 12C12 7 9 4 4 3c0 5 2 8 8 9zM12 12c0-5 3-8 8-9 0 5-2 8-8 9z"></path></svg>
+                        <div class="svc-name">Tree Care<br />&amp; Removal</div>
+                        <p class="svc-desc">Removal, pruning, stump grinding, storm cleanup &amp; trail maintenance. Fully insured. Full-circle — woodchips become mulch, logs become cutting boards. Servicing as far north as Sturgeon Bay.</p>
+                        <a href="#" class="svc-link">Tree services &nbsp;</a>
                     </div>
 
                     <div class="svc-card">
                         <div class="svc-num">06</div>
-                        <div class="card-deco">
-                            <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"></path><path d="M16 3H8L6 7h12l-2-4z"></path></svg>
-                            <div class="svc-name">Snow<br />Removal</div>
-                            <p class="svc-desc">Tractor snowblower + truck plow for maximum flexibility. Country laneways, driveways &amp; home-based businesses. Yearly memberships available.</p>
-                            <a href="#" class="svc-link">Get on the list &nbsp;</a>
-                        </div>
+                        <div class="card-deco"><img src={Img1} alt="" /></div>
+                        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"></path><path d="M16 3H8L6 7h12l-2-4z"></path></svg>
+                        <div class="svc-name">Snow<br />Removal</div>
+                        <p class="svc-desc">Tractor snowblower + truck plow for maximum flexibility. Country laneways, driveways &amp; home-based businesses. Yearly memberships available.</p>
+                        <a href="#" class="svc-link">Get on the list &nbsp;</a>
                     </div>
 
                 </div>
@@ -351,6 +351,6 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-        </div>
+        </div >
     )
 }
