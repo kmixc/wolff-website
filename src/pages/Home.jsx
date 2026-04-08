@@ -1,10 +1,23 @@
 import React from 'react'
+import '../styles/home.css'
+
+import Logo from '../assets/images/WOLFF-Logo.png'
 
 import Flower1 from '../assets/images/flower-1.png'
 import Flower2 from '../assets/images/flower-2.png'
+import Flower3 from '../assets/images/flower-3.png'
+
+import Tool1 from '../assets/images/tool-1.png'
+import Tool2 from '../assets/images/tool-2.png'
+import Tool3 from '../assets/images/tool-3.png'
+
+import Img from '../assets/images/hero.png'
 import Img1 from '../assets/images/hero-2.jpg'
 import Img2 from '../assets/images/hero-3.jpg'
 import Img3 from '../assets/images/hero-4.jpg'
+import Img4 from '../assets/images/hero-5.jpg'
+import Img5 from '../assets/images/hero-6.jpg'
+
 
 export default function Home() {
     return (
@@ -16,14 +29,14 @@ export default function Home() {
                     <h1 class="hero-title">
                         Land Rooted<br />in <em>Regeneration</em>
                     </h1>
-                    <div class="hero-wlff">Working on Land Forest &amp; Flower</div>
+                    <div class="hero-wolff">Working on Land Forest &amp; Flower</div>
                     <p class="hero-body">
                         Organic. Ecological. Full circle.<br />
                         We work with the land — never against it. Building living landscapes that nourish ecosystems, families, and communities across Wellington &amp; Peel counties.
                     </p>
                     <div class="hero-btns">
-                        <a href="#" class="btn-primary">Explore Our Services</a>
-                        <a href="#" class="btn-ghost">Our Approach</a>
+                        <a href="/services" class="btn-primary">Explore Our Services</a>
+                        <a href="/about" class="btn-ghost">Our Approach</a>
                     </div>
                     <div class="hero-badges">
                         <span class="badge">SOUL Certified</span>
@@ -95,60 +108,60 @@ export default function Home() {
                     <div class="sec-eye">What We Do</div>
                     <h2 class="sec-title">Services rooted in <em>nature's wisdom</em></h2>
                 </div>
-                <div class="svc-grid">
+                <div class="svc-grid-home">
 
-                    <div class="svc-card">
-                        <div class="svc-num">01</div>
-                        <div class="card-deco"><img src={Img1} alt="" /></div>
-                        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="9"></circle><path d="M12 6v6l3.5 3.5"></path></svg>
-                        <div class="svc-name">Property<br />Maintenance</div>
-                        <p class="svc-desc">Grass cutting, organic garden care, seasonal potters &amp; snow removal — all chemical-free. Customize your yearly membership package.</p>
-                        <a href="#" class="svc-link">View packages &nbsp;</a>
+                    <div class="svc-card-home">
+                        <div class="svc-num-home">01</div>
+                        <div class="card-deco-home"><img src={Flower1} alt="" /></div>
+                        <svg class="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="9"></circle><path d="M12 6v6l3.5 3.5"></path></svg>
+                        <div class="svc-name-home">Property<br />Maintenance</div>
+                        <p class="svc-desc-home">Grass cutting, organic garden care, seasonal potters &amp; snow removal — all chemical-free. Customize your yearly membership package.</p>
+                        <a href="/services" class="svc-link-home">View packages &nbsp;</a>
                     </div>
 
-                    <div class="svc-card">
-                        <div class="svc-num">02</div>
-                        <div class="card-deco"><img src={Img1} alt="" /></div>
-                        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 21l9-18 9 18H3z"></path><path d="M12 3v18M3 12h18"></path></svg>
-                        <div class="svc-name">Regenerative<br />Landscaping</div>
-                        <p class="svc-desc">Full design, install &amp; maintenance. Perennial gardens, rain gardens, water features &amp; habitat corridors — landscapes that heal the land.</p>
-                        <a href="#" class="svc-link">See our work &nbsp;</a>
+                    <div class="svc-card-home">
+                        <div class="svc-num-home">02</div>
+                        <div class="card-deco-home"><img src={Flower2} alt="" /></div>
+                        <svg class="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 21l9-18 9 18H3z"></path><path d="M12 3v18M3 12h18"></path></svg>
+                        <div class="svc-name-home">Regenerative<br />Landscaping</div>
+                        <p class="svc-desc-home">Full design, install &amp; maintenance. Perennial gardens, rain gardens, water features &amp; habitat corridors — landscapes that heal the land.</p>
+                        <a href="/services" class="svc-link-home">See our work &nbsp;</a>
                     </div>
 
-                    <div class="svc-card">
-                        <div class="svc-num">03</div>
-                        <div class="card-deco"><img src={Img1} alt="" /></div>
-                        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"></path></svg>
-                        <div class="svc-name">Garden<br />Design</div>
-                        <p class="svc-desc">Native pollinator gardens, woodland shade gardens, medicinal herb gardens &amp; meadows. Rooted in ecology, beautiful to inhabit.</p>
-                        <a href="#" class="svc-link">Browse designs &nbsp;</a>
+                    <div class="svc-card-home">
+                        <div class="svc-num-home">03</div>
+                        <div class="card-deco-home"><img src={Flower3} alt="" /></div>
+                        <svg class="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"></path></svg>
+                        <div class="svc-name-home">Garden<br />Design</div>
+                        <p class="svc-desc-home">Native pollinator gardens, woodland shade gardens, medicinal herb gardens &amp; meadows. Rooted in ecology, beautiful to inhabit.</p>
+                        <a href="/services" class="svc-link-home">Browse designs &nbsp;</a>
                     </div>
 
-                    <div class="svc-card">
-                        <div class="svc-num">04</div>
-                        <div class="card-deco"><img src={Img1} alt="" /></div>
-                        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M17 8C8 10 5.9 16.2 3.8 22M9.5 15.5C11 12 14 8.5 20 7M9 22c0-5 2-11 8-14"></path></svg>
-                        <div class="svc-name">Permaculture<br />Projects</div>
-                        <p class="svc-desc">Orchards, food forests, edible &amp; medicinal gardens, composting systems. Design, install &amp; ongoing care — your own backyard ecosystem.</p>
-                        <a href="#" class="svc-link">Learn more &nbsp;</a>
+                    <div class="svc-card-home">
+                        <div class="svc-num-home">04</div>
+                        <div class="card-deco-home"><img src={Tool1} alt="" /></div>
+                        <svg class="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M17 8C8 10 5.9 16.2 3.8 22M9.5 15.5C11 12 14 8.5 20 7M9 22c0-5 2-11 8-14"></path></svg>
+                        <div class="svc-name-home">Permaculture<br />Projects</div>
+                        <p class="svc-desc-home">Orchards, food forests, edible &amp; medicinal gardens, composting systems. Design, install &amp; ongoing care — your own backyard ecosystem.</p>
+                        <a href="/services" class="svc-link-home">Learn more &nbsp;</a>
                     </div>
 
-                    <div class="svc-card">
-                        <div class="svc-num">05</div>
-                        <div class="card-deco"><img src={Img1} alt="" /></div>
-                        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22V12M12 12C12 7 9 4 4 3c0 5 2 8 8 9zM12 12c0-5 3-8 8-9 0 5-2 8-8 9z"></path></svg>
-                        <div class="svc-name">Tree Care<br />&amp; Removal</div>
-                        <p class="svc-desc">Removal, pruning, stump grinding, storm cleanup &amp; trail maintenance. Fully insured. Full-circle — woodchips become mulch, logs become cutting boards. Servicing as far north as Sturgeon Bay.</p>
-                        <a href="#" class="svc-link">Tree services &nbsp;</a>
+                    <div class="svc-card-home">
+                        <div class="svc-num-home">05</div>
+                        <div class="card-deco-home"><img src={Tool2} alt="" /></div>
+                        <svg class="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22V12M12 12C12 7 9 4 4 3c0 5 2 8 8 9zM12 12c0-5 3-8 8-9 0 5-2 8-8 9z"></path></svg>
+                        <div class="svc-name-home">Tree Care<br />&amp; Removal</div>
+                        <p class="svc-desc-home">Removal, pruning, stump grinding, storm cleanup &amp; trail maintenance. Fully insured. Full-circle — woodchips become mulch, logs become cutting boards. Servicing as far north as Sturgeon Bay.</p>
+                        <a href="/services" class="svc-link-home">Tree services &nbsp;</a>
                     </div>
 
-                    <div class="svc-card">
-                        <div class="svc-num">06</div>
-                        <div class="card-deco"><img src={Img1} alt="" /></div>
-                        <svg class="svc-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"></path><path d="M16 3H8L6 7h12l-2-4z"></path></svg>
-                        <div class="svc-name">Snow<br />Removal</div>
-                        <p class="svc-desc">Tractor snowblower + truck plow for maximum flexibility. Country laneways, driveways &amp; home-based businesses. Yearly memberships available.</p>
-                        <a href="#" class="svc-link">Get on the list &nbsp;</a>
+                    <div class="svc-card-home">
+                        <div class="svc-num-home">06</div>
+                        <div class="card-deco-home"><img src={Tool3} alt="" /></div>
+                        <svg class="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"></path><path d="M16 3H8L6 7h12l-2-4z"></path></svg>
+                        <div class="svc-name-home">Snow<br />Removal</div>
+                        <p class="svc-desc-home">Tractor snowblower + truck plow for maximum flexibility. Country laneways, driveways &amp; home-based businesses. Yearly memberships available.</p>
+                        <a href="/services" class="svc-link-home">Get on the list &nbsp;</a>
                     </div>
 
                 </div>
@@ -156,10 +169,10 @@ export default function Home() {
 
             <div class="photo-band">
                 <div class="pb-photo">
-                    <img />
+                    <img src={Img} alt="" />
                 </div>
                 <div class="pb-photo">
-                    <img />
+                    <img src={Img4} />
                 </div>
                 <div class="pb-caption">
                     <h3 class="sec-title"><em>Beautiful</em> spaces that support life from the soil up.</h3>
@@ -228,30 +241,29 @@ export default function Home() {
             </section>
 
             <section class="testi">
-                <div class="testi-deco">
-                    <div class="testi-head">
-                        <div class="sec-eye">Client Love</div>
-                        <h2 class="sec-title">What our community <em>is saying</em></h2>
+                <div class="testi-deco"><img src={Flower1} alt="" /></div>
+                <div class="testi-head">
+                    <div class="sec-eye">Client Love</div>
+                    <h2 class="sec-title">What our community <em>is saying</em></h2>
+                </div>
+                <div class="testi-grid">
+                    <div class="testi-card">
+                        <div class="testi-stars">★★★★★</div>
+                        <p class="testi-quote">"WOLFF transformed our backyard into something we never thought possible. The rain garden they designed has changed how water moves across our whole property — and it's absolutely beautiful."</p>
+                        <div class="testi-name">Sarah &amp; Tom M.</div>
+                        <div class="testi-loc">Erin, ON</div>
                     </div>
-                    <div class="testi-grid">
-                        <div class="testi-card">
-                            <div class="testi-stars">★★★★★</div>
-                            <p class="testi-quote">"WOLFF transformed our backyard into something we never thought possible. The rain garden they designed has changed how water moves across our whole property — and it's absolutely beautiful."</p>
-                            <div class="testi-name">Sarah &amp; Tom M.</div>
-                            <div class="testi-loc">Erin, ON</div>
-                        </div>
-                        <div class="testi-card">
-                            <div class="testi-stars">★★★★★</div>
-                            <p class="testi-quote">"As someone who cares deeply about not using chemicals near our children and animals, finding WOLFF was a game changer. They truly understand what it means to work with nature."</p>
-                            <div class="testi-name">Jennifer K.</div>
-                            <div class="testi-loc">Caledon Village, ON</div>
-                        </div>
-                        <div class="testi-card">
-                            <div class="testi-stars">★★★★★</div>
-                            <p class="testi-quote">"The pollinator garden they installed last spring is thriving. Our property feels alive in a way it never did before. Incredibly knowledgeable, warm, and passionate about what they do."</p>
-                            <div class="testi-name">David L.</div>
-                            <div class="testi-loc">Orangeville, ON</div>
-                        </div>
+                    <div class="testi-card">
+                        <div class="testi-stars">★★★★★</div>
+                        <p class="testi-quote">"As someone who cares deeply about not using chemicals near our children and animals, finding WOLFF was a game changer. They truly understand what it means to work with nature."</p>
+                        <div class="testi-name">Jennifer K.</div>
+                        <div class="testi-loc">Caledon Village, ON</div>
+                    </div>
+                    <div class="testi-card">
+                        <div class="testi-stars">★★★★★</div>
+                        <p class="testi-quote">"The pollinator garden they installed last spring is thriving. Our property feels alive in a way it never did before. Incredibly knowledgeable, warm, and passionate about what they do."</p>
+                        <div class="testi-name">David L.</div>
+                        <div class="testi-loc">Orangeville, ON</div>
                     </div>
                 </div>
             </section>
@@ -286,34 +298,32 @@ export default function Home() {
             </section>
 
             <section class="family">
-                <div class="fam-deco">
-                    <img />
-                    <div class="fam-photos">
-                        <div class="fam-ph tall">
-                            <img />
-                        </div>
-                        <div class="fam-ph short">
-                            <img />
-                        </div>
-                        <div class="fam-ph short">
-                            <img />
-                        </div>
+                <div class="fam-deco"><img src={Flower1} alt="" /></div>
+                <div class="fam-photos">
+                    <div class="fam-ph tall">
+                        <img src={Img} alt="The WOLFF team at work" />
                     </div>
-                    <div>
-                        <div class="sec-eye">The WOLFF Family</div>
-                        <h2 class="sec-title">This is<br /><em>personal</em> work.</h2>
-                        <p class="sec-body">
-                            WOLFF isn't a corporation — we're a family that genuinely loves this land. Every project we take on is one we'd be proud to have on our own property. We bring our whole selves to every job: our ecological knowledge, our love for community, and our belief that regenerating the land is one of the most meaningful things we can do.
-                        </p>
-                        <a href="#" class="btn-primary" >Meet the Team</a>
+                    <div class="fam-ph short">
+                        <img src={Img2} alt="Tools of the trade" />
                     </div>
+                    <div class="fam-ph short">
+                        <img src={Img3} alt="Growing from seed" />
+                    </div>
+                </div>
+                <div>
+                    <div class="sec-eye">The WOLFF Family</div>
+                    <h2 class="sec-title">This is<br /><em>personal</em> work.</h2>
+                    <p class="sec-body">
+                        WOLFF isn't a corporation — we're a family that genuinely loves this land. Every project we take on is one we'd be proud to have on our own property. We bring our whole selves to every job: our ecological knowledge, our love for community, and our belief that regenerating the land is one of the most meaningful things we can do.
+                    </p>
+                    <a href="/about" class="btn-primary" >Meet the Team</a>
                 </div>
             </section>
 
             <div class="brand-banner">
-                <img class="brand-banner-bg" />
+                <img class="brand-banner-bg" src={Img5} alt="Regenerative landscape" />
                 <div class="brand-banner-overlay">
-                    <img class="logo-lg" />
+                    <img class="logo-lg" src={Logo} alt="WOLFF" />
                     <p>"Rooted in organic land care — working with nature, never against it."</p>
                 </div>
             </div>
@@ -341,15 +351,9 @@ export default function Home() {
             </div>
 
             <section class="cta">
-                <div class="cta-deco-l">
-                    <img />
-                    <div class="cta-deco-r">
-                        <img />
-                        <h2 class="cta-title">Ready to <em>regenerate</em><br />your land?</h2>
-                        <p class="cta-sub">Every healthy landscape starts with a conversation. Tell us about your property and what you're dreaming of.</p>
-                        <a href="#" class="btn-primary" >Book a Free Consultation</a>
-                    </div>
-                </div>
+                <h2 class="cta-title">Ready to <em>regenerate</em><br />your land?</h2>
+                <p class="cta-sub">Every healthy landscape starts with a conversation. Tell us about your property and what you're dreaming of.</p>
+                <a href="/contact" class="btn-primary">Book a Free Consultation</a>
             </section>
         </div >
     )

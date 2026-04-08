@@ -4,7 +4,6 @@ export default function Services() {
     return (
         <div>
             <div id="page-services" class="page">
-
                 <section class="page-hero">
                     <div class="page-hero-bg"></div>
                     <div class="page-hero-content">
@@ -51,8 +50,7 @@ export default function Services() {
                         <div class="svc-name">Property <em>Maintenance</em></div>
                         <p class="svc-desc">Ongoing organic lawn and garden care — mowing, edging, pruning, mulching, weeding, and
                             seasonal clean-ups that keep your property looking its best through every season.</p>
-                        <div class="svc-tags"><span class="svc-tag">Year-Round</span><span class="svc-tag">Residential</span><span
-                            class="svc-tag">Commercial</span></div>
+                        <div class="svc-tags"><span class="svc-tag">Year-Round</span><span class="svc-tag">Residential</span><span class="svc-tag">Commercial</span></div>
                     </div>
                     <div class="svc-item">
                         <div class="svc-num">02</div>

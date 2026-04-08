@@ -1,0 +1,109 @@
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem;
+    height: 76px;
+    background: rgba(41, 41, 42, 0.97);
+    backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(143, 158, 139, 0.12);
+}
+
+.nav-logo img {
+    height: 42px;
+    width: auto;
+    display: block;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2.2rem;
+    list-style: none;
+}
+
+.nav-links a {
+    font-size: 0.7rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--heritage);
+    text-decoration: none;
+    transition: color .3s;
+    font-weight: 400;
+}
+
+.nav-links a:hover {
+    color: var(--lichen);
+}
+
+.nav-cta {
+    font-size: 0.68rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--obsidian);
+    background: var(--lichen);
+    border: none;
+    padding: 0.72rem 1.7rem;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .3s;
+}
+
+.nav-cta:hover {
+    background: var(--moss);
+    color: var(--offwhite);
+}
+
+/* Hamburger icon (hidden on desktop) */
+.hamburger {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--heritage);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    /* Hide regular nav links by default */
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 76px;
+        /* height of your nav */
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background: rgba(41, 41, 42, 0.97);
+        backdrop-filter: blur(12px);
+        border-bottom: 1px solid rgba(143, 158, 139, 0.12);
+        padding: 1rem 0;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 0.8rem 0;
+    }
+
+    .nav-cta {
+        display: none;
+        /* optional on mobile */
+    }
+
+    nav {
+        padding: 0 2rem;
+        /* smaller padding for mobile */
+    }
+}

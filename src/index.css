@@ -28,69 +28,6 @@ body {
 
 /* ── PAGE SYSTEM ── */
 
-/* ── NAV (shared) ── */
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 200;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0 4rem;
-  height: 76px;
-  background: rgba(41, 41, 42, 0.97);
-  backdrop-filter: blur(12px);
-  border-bottom: 1px solid rgba(143, 158, 139, 0.12);
-}
-
-.nav-logo img {
-  height: 42px;
-  width: auto;
-  display: block;
-}
-
-.nav-links {
-  display: flex;
-  gap: 2.2rem;
-  list-style: none;
-}
-
-.nav-links a {
-  font-size: 0.7rem;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--heritage);
-  text-decoration: none;
-  transition: color .3s;
-  font-weight: 400;
-}
-
-.nav-links a:hover,
-.nav-links a.active-link {
-  color: var(--lichen);
-}
-
-.nav-cta {
-  font-size: 0.68rem;
-  font-weight: 600;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--obsidian);
-  background: var(--lichen);
-  border: none;
-  padding: 0.72rem 1.7rem;
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  transition: all .3s;
-}
-
-.nav-cta:hover {
-  background: var(--moss);
-  color: var(--offwhite);
-}
-
 /* ── SHARED HELPERS ── */
 .pt-nav {
   padding-top: 76px;
@@ -267,7 +204,8 @@ nav {
 .page-hero-bg {
   position: absolute;
   inset: 0;
-  background: linear-gradient(160deg, #0e100d 0%, #1c2218 45%, #252a1e 100%);
+  filter: brightness(0.26) saturate(0.8);
+  background-image: url(./assets/images/hero-5.jpg);
   z-index: 0;
 }
 
@@ -652,7 +590,9 @@ footer {
 .founder-photo-fill-1 {
   width: 100%;
   height: 100%;
-  background: linear-gradient(160deg, #4a5840 0%, #2e3a27 100%);
+  background: url(./assets/images/kurt-1.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: flex-end;
   padding: 1.5rem;
@@ -661,7 +601,9 @@ footer {
 .founder-photo-fill-2 {
   width: 100%;
   height: 100%;
-  background: linear-gradient(160deg, #3d4d35 0%, #283121 100%);
+  background: url(./assets/images/alex-2.jpg);
+  background-size: cover;
+  background-position: center;
   display: flex;
   align-items: flex-end;
   padding: 1.5rem;
@@ -742,7 +684,7 @@ footer {
 }
 
 .about-origin-inner {
-  max-width: 760px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
