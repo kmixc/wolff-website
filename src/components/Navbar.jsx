@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
 import "../styles/nav.css"
-
 import Logo from '../assets/images/WOLFF-Logo.png'
 
-export default function Nav() {
+export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false)
 
     return (
