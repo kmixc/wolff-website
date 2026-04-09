@@ -846,6 +846,97 @@ footer {
   line-height: 1.9;
 }
 
+/* Responsive for About Page */
+@media (max-width: 768px) {
+  .page-hero {
+    padding: 8rem 2.5rem 4rem;
+  }
+
+  .page-hero-content {
+    padding: 8rem 2.5rem 4rem;
+  }
+
+  .about-story {
+    padding: 5rem 2.5rem;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .about-founders {
+    padding: 5rem 2.5rem;
+  }
+
+  .founders-grid {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .about-values {
+    padding: 5rem 2.5rem;
+  }
+
+  .values-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-origin {
+    padding: 5rem 2.5rem;
+  }
+
+  .about-certs {
+    padding: 4rem 2.5rem;
+  }
+
+  .certs-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-hero {
+    padding: 6rem 1.5rem 3rem;
+  }
+
+  .page-hero-content {
+    padding: 6rem 1.5rem 3rem;
+  }
+
+  .about-story {
+    padding: 4rem 1.5rem;
+    gap: 3rem;
+  }
+
+  .about-founders {
+    padding: 4rem 1.5rem;
+  }
+
+  .founders-grid {
+    gap: 3rem;
+  }
+
+  .about-values {
+    padding: 4rem 1.5rem;
+  }
+
+  .values-grid {
+    gap: 1.5rem;
+  }
+
+  .about-origin {
+    padding: 4rem 1.5rem;
+  }
+
+  .about-certs {
+    padding: 3rem 1.5rem;
+  }
+
+  .certs-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ═══════════════════════════════════════
      SERVICES PAGE
   ═══════════════════════════════════════ */
@@ -981,7 +1072,7 @@ footer {
   position: relative;
 }
 
-.approach-img {
+.approach-img img {
   width: 100%;
   aspect-ratio: 4/5;
   background: linear-gradient(160deg, #2e3a27 0%, #1c2418 100%);
@@ -997,6 +1088,102 @@ footer {
   color: rgba(143, 158, 139, 0.25);
   text-align: center;
   padding: 2rem;
+}
+
+/* Responsive for Services Page */
+@media (max-width: 768px) {
+  .services-intro {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding: 6rem 2.5rem 3rem;
+  }
+
+  .services-list {
+    padding: 0 2.5rem 6rem;
+  }
+
+  .svc-item {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 2rem 0;
+  }
+
+  .svc-tags {
+    flex-direction: row;
+    gap: 0.3rem;
+    justify-content: flex-start;
+  }
+
+  .services-approach {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding: 6rem 2.5rem;
+  }
+
+  .approach-steps {
+    margin-top: 2rem;
+  }
+
+  .approach-step {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .services-intro {
+    padding: 5rem 1.5rem 2rem;
+    gap: 3rem;
+  }
+
+  .services-list {
+    padding: 0 1.5rem 5rem;
+  }
+
+  .svc-item {
+    padding: 1.5rem 0;
+  }
+
+  .svc-num {
+    font-size: 1.8rem;
+  }
+
+  .svc-name {
+    font-size: 1.3rem;
+  }
+
+  .svc-desc {
+    font-size: 0.85rem;
+  }
+
+  .svc-tags {
+    gap: 0.2rem;
+  }
+
+  .svc-tag {
+    font-size: 0.5rem;
+    padding: 0.18rem 0.5rem;
+  }
+
+  .services-approach {
+    padding: 5rem 1.5rem;
+    gap: 3rem;
+  }
+
+  .approach-step {
+    gap: 0.8rem;
+  }
+
+  .step-n {
+    font-size: 1.5rem;
+  }
+
+  .step-t {
+    font-size: 0.65rem;
+  }
+
+  .step-b {
+    font-size: 0.85rem;
+  }
 }
 
 /* ═══════════════════════════════════════
@@ -1027,6 +1214,7 @@ footer {
 }
 
 .svc-detail-img-thumb {
+  width: 100%;
   aspect-ratio: 3/2;
   overflow: hidden;
 }
@@ -1167,9 +1355,52 @@ footer {
   color: rgba(250, 250, 248, 0.45);
 }
 
-/* ═══════════════════════════════════════
-     TREE CARE PAGE
-  ═══════════════════════════════════════ */
+/* Responsive for Landscaping Page */
+@media (max-width: 768px) {
+  .svc-detail-body {
+    padding: 6rem 3rem;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .svc-gallery {
+    padding: 4rem 3rem 6rem;
+  }
+
+  .gallery-head {
+    margin-bottom: 2.5rem;
+  }
+
+  .gallery-grid {
+    gap: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .svc-detail-body {
+    padding: 5rem 2rem;
+    gap: 3rem;
+  }
+
+  .svc-gallery {
+    padding: 3rem 2rem 5rem;
+  }
+
+  .gallery-head {
+    margin-bottom: 2rem;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 0.6rem;
+  }
+
+  .gal-item.tall {
+    grid-row: span 1;
+  }
+}
+
 .tree-services {
   padding: 8rem 5.5rem;
 }
@@ -1383,6 +1614,60 @@ footer {
   border-top: 3px solid #6e8896;
 }
 
+/* Responsive for Tree Care Page */
+@media (max-width: 768px) {
+  .tree-services {
+    padding: 6rem 3rem;
+  }
+
+  .tree-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+
+  .tree-safety {
+    padding: 6rem 3rem;
+    display: block;
+  }
+
+  .safety-checklist {
+    margin-top: 2rem;
+  }
+
+  .tree-seasonal {
+    padding: 6rem 3rem;
+  }
+
+  .seasonal-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tree-services {
+    padding: 5rem 2rem;
+  }
+
+  .tree-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .tree-safety {
+    padding: 5rem 2rem;
+  }
+
+  .tree-seasonal {
+    padding: 5rem 2rem;
+  }
+
+  .seasonal-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
 /* ═══════════════════════════════════════
      PROJECTS PAGE
   ═══════════════════════════════════════ */
@@ -1447,6 +1732,12 @@ footer {
   transition: transform .6s ease;
 }
 
+.proj-img-fill img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .proj-card:hover .proj-img-fill {
   transform: scale(1.04);
 }
@@ -1503,6 +1794,47 @@ footer {
 
 .proj-card.featured .proj-img {
   aspect-ratio: 16/7;
+}
+
+/* Responsive for Projects Page */
+@media (max-width: 768px) {
+  .projects-filters {
+    padding: 4rem 2rem 2rem;
+    flex-wrap: wrap;
+  }
+
+  .projects-grid {
+    padding: 0 2rem 8rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .proj-card.featured {
+    grid-column: span 1;
+  }
+
+  .proj-card.featured .proj-img {
+    aspect-ratio: 4/3;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects-filters {
+    padding: 4rem 1rem 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .filter-label {
+    margin-bottom: 0.5rem;
+  }
+
+  .projects-grid {
+    padding: 0 1rem 8rem;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }
 
 /* ═══════════════════════════════════════
@@ -1585,6 +1917,10 @@ footer {
   gap: 1rem;
 }
 
+.faq-q:hover {
+  background: rgba(109, 121, 83, 0.05);
+}
+
 .faq-q::after {
   content: '+';
   font-family: 'Jost', sans-serif;
@@ -1610,6 +1946,26 @@ footer {
 
 .faq-item.open .faq-q::after {
   content: '−';
+}
+
+/* Responsive for FAQ Page */
+@media (max-width: 768px) {
+  .faq-layout {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+    padding: 4rem 2rem 8rem;
+  }
+
+  .faq-sidebar {
+    position: static;
+  }
+}
+
+@media (max-width: 480px) {
+  .faq-layout {
+    padding: 4rem 1rem 8rem;
+    gap: 2rem;
+  }
 }
 
 /* ═══════════════════════════════════════
@@ -1825,4 +2181,45 @@ textarea.form-input {
   font-size: 1rem;
   font-style: italic;
   color: rgba(143, 158, 139, 0.22);
+}
+
+/* Responsive for Contact Page */
+@media (max-width: 768px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .contact-info {
+    padding: 0 3rem;
+  }
+
+  .contact-form-col {
+    padding: 0 3rem;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-layout {
+    gap: 3rem;
+  }
+
+  .contact-info {
+    padding: 0 2rem;
+  }
+
+  .contact-form-col {
+    padding: 0 2rem;
+  }
+
+  .contact-hours-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
 }

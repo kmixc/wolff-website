@@ -1314,3 +1314,317 @@ footer {
         height: 260px
     }
 }
+
+@media(max-width:768px) {
+    .hero-left {
+        padding: 7rem 2rem 4rem
+    }
+
+    .hero-title {
+        font-size: clamp(2.5rem, 4vw, 4rem);
+    }
+
+    .hero-body {
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .hero-btns {
+        gap: 0.8rem;
+    }
+
+    .hero-badges {
+        gap: 0.9rem;
+        margin-top: 2rem;
+    }
+
+    .strip {
+        padding: 1rem 1.5rem;
+        gap: 1.2rem;
+    }
+
+    .strip-item {
+        font-size: 0.6rem;
+    }
+
+    .ethos {
+        padding: 4rem 2rem;
+        gap: 3rem;
+    }
+
+    .services {
+        padding: 4rem 2rem;
+    }
+
+    .svc-grid-home {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .svc-card-home {
+        padding: 2.2rem 2rem;
+    }
+
+    .photo-band {
+        height: auto;
+    }
+
+    .pb-photo {
+        height: 200px;
+    }
+
+    .pb-caption {
+        padding: 2rem 1.5rem;
+    }
+
+    .pb-caption .sec-title {
+        font-size: 1.5rem;
+    }
+
+    .maint {
+        padding: 4rem 2rem;
+    }
+
+    .maint-grid {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .maint-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .testi {
+        padding: 4rem 2rem;
+    }
+
+    .area {
+        padding: 4rem 2rem;
+        gap: 3rem;
+    }
+
+    .family {
+        padding: 4rem 2rem;
+        gap: 3rem;
+    }
+
+    .fam-photos {
+        grid-template-columns: 1fr;
+    }
+
+    .fam-ph.tall {
+        grid-row: span 1;
+        min-height: 300px;
+    }
+
+    .fam-ph.short {
+        height: 150px;
+    }
+
+    .certs {
+        padding: 1.5rem 2rem;
+        gap: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .cta {
+        padding: 4rem 2rem;
+    }
+
+    .brand-banner {
+        height: 220px;
+    }
+}
+
+@media(max-width:480px) {
+    .hero-left {
+        padding: 5rem 1.5rem 3rem;
+    }
+
+    .hero-title {
+        font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    .hero-body {
+        font-size: 0.75rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero-btns {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.6rem;
+    }
+
+    .hero-badges {
+        gap: 0.7rem;
+        margin-top: 1.5rem;
+        flex-wrap: wrap;
+    }
+
+    .badge {
+        font-size: 0.55rem;
+        padding: 0.25rem 0.6rem;
+    }
+
+    .strip {
+        padding: 0.8rem 1rem;
+        gap: 0.8rem;
+        flex-wrap: wrap;
+    }
+
+    .strip-item {
+        font-size: 0.55rem;
+    }
+
+    .ethos {
+        padding: 3rem 1.5rem;
+        gap: 2rem;
+    }
+
+    .ethos-text {
+        text-align: center;
+    }
+
+    .services {
+        padding: 3rem 1.5rem;
+    }
+
+    .services-head {
+        margin-bottom: 3rem;
+    }
+
+    .svc-card-home {
+        padding: 1.8rem 1.5rem;
+    }
+
+    .svc-name-home {
+        font-size: 1.2rem;
+    }
+
+    .svc-desc-home {
+        font-size: 0.7rem;
+    }
+
+    .photo-band {
+        height: auto;
+    }
+
+    .pb-photo {
+        height: 150px;
+    }
+
+    .pb-caption {
+        padding: 1.5rem 1rem;
+    }
+
+    .pb-caption .sec-title {
+        font-size: 1.2rem;
+    }
+
+    .pb-caption p {
+        font-size: 0.75rem;
+    }
+
+    .maint {
+        padding: 3rem 1.5rem;
+    }
+
+    .maint-head {
+        margin-bottom: 2rem;
+    }
+
+    .maint-card {
+        padding: 1.5rem 1rem;
+    }
+
+    .maint-name {
+        font-size: 1.3rem;
+    }
+
+    .maint-list li {
+        font-size: 0.7rem;
+    }
+
+    .testi {
+        padding: 3rem 1.5rem;
+    }
+
+    .testi-head {
+        margin-bottom: 3rem;
+    }
+
+    .testi-card {
+        padding: 2rem;
+    }
+
+    .testi-quote {
+        font-size: 0.95rem;
+    }
+
+    .area {
+        padding: 3rem 1.5rem;
+        gap: 2rem;
+    }
+
+    .towns-list {
+        gap: 0.3rem;
+    }
+
+    .town {
+        font-size: 0.7rem;
+        padding: 0.2rem 0.6rem;
+    }
+
+    .family {
+        padding: 3rem 1.5rem;
+        gap: 2rem;
+    }
+
+    .fam-ph.tall {
+        min-height: 250px;
+    }
+
+    .fam-ph.short {
+        height: 125px;
+    }
+
+    .certs {
+        padding: 1rem 1.5rem;
+        gap: 1rem;
+    }
+
+    .cert-item {
+        text-align: center;
+    }
+
+    .cert-lbl {
+        font-size: 0.5rem;
+    }
+
+    .cert-name {
+        font-size: 0.65rem;
+    }
+
+    .cta {
+        padding: 3rem 1.5rem;
+        text-align: center;
+    }
+
+    .cta-title {
+        font-size: clamp(1.8rem, 4vw, 2.5rem);
+    }
+
+    .cta-sub {
+        font-size: 0.75rem;
+        margin: 0 auto 2rem;
+    }
+
+    .brand-banner {
+        height: 180px;
+    }
+
+    .brand-banner-overlay p {
+        font-size: 1rem;
+    }
+}
