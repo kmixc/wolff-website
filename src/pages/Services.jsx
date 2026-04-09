@@ -140,7 +140,7 @@ export default function Services() {
                     <h2 class="cta-title">Not sure where to <em>start?</em></h2>
                     <p class="cta-sub">A 20-minute discovery call is all it takes. We'll listen, ask the right questions, and tell you
                         honestly what your land needs.</p>
-                    <a href="#" class="btn-primary">Book a Free Call</a>
+                    <a href="/contact" class="btn-primary">Book a Free Call</a>
                 </section>
             </div>
         </div>

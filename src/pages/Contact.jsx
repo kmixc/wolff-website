@@ -88,7 +88,7 @@ export default function Contact() {
                         </div>
                         <p class="form-note">We take your privacy seriously. Your information will only be used to respond to your
                             inquiry and will never be sold or shared.</p>
-                        <a href="#" class="btn-primary" >Send Message</a>
+                        <a href="/contact" class="btn-primary" >Send Message</a>
                     </div>
                 </div>
 
@@ -100,7 +100,7 @@ export default function Contact() {
                     <h2 class="cta-title">Prefer to <em>book directly?</em></h2>
                     <p class="cta-sub">Skip the form — book a free 20-minute discovery call and we'll figure out the rest from there.
                     </p>
-                    <a href="#" class="btn-primary">Book a Discovery Call</a>
+                    <a href="/contact" class="btn-primary">Book a Discovery Call</a>
                 </section>
             </div>
         </div>

@@ -113,7 +113,7 @@ export default function Projects() {
                     <h2 class="cta-title">Could this be <em>your property?</em></h2>
                     <p class="cta-sub">We'd love to add your land to our portfolio of regenerated, beautiful, chemical-free properties
                         across the Headwaters region.</p>
-                    <a href="#" class="btn-primary">Start a Conversation</a>
+                    <a href="/contact" class="btn-primary">Start a Conversation</a>
                 </section>
             </div>
         </div>

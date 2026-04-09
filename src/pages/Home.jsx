@@ -48,17 +48,17 @@ export default function Home() {
 
                 <div class="hero-right">
                     <div class="hero-botanical">
-                        <img src={Flower1} />
+                        <img src={Flower1} alt='icon' />
                     </div>
                     <div class="hero-photo-stack">
                         <div class="ph tall">
-                            <img src={Img1} />
+                            <img src={Img1} alt='work' />
                         </div>
                         <div class="ph short">
-                            <img src={Img2} />
+                            <img src={Img2} alt='work1' />
                         </div>
                         <div class="ph short">
-                            <img src={Img3} />
+                            <img src={Img3} alt='work2' />
                         </div>
                     </div>
                 </div>
@@ -74,14 +74,14 @@ export default function Home() {
             <section class="ethos">
                 <div class="ethos-img-wrap">
                     <div class="ethos-main">
-                        <img src={Img1} />
+                        <img src={Img1} alt='work4' />
                     </div>
                     <div class="ethos-accent">
-                        <img src={Img2} />
+                        <img src={Img2} alt='work3' />
                     </div>
                     <div class="ethos-flag">Est. Orton, Ontario</div>
                     <div class="ethos-icon-deco">
-                        <img src={Flower2} />
+                        <img src={Flower2} alt='icon' />
                     </div>
                 </div>
                 <div class="ethos-text">
@@ -112,7 +112,7 @@ export default function Home() {
 
                     <div class="svc-card-home">
                         <div class="svc-num-home">01</div>
-                        <div class="card-deco-home"><img src={Flower1} alt="" /></div>
+                        <div class="card-deco-home"><img src={Flower1} alt="icon" /></div>
                         <svg class="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="9"></circle><path d="M12 6v6l3.5 3.5"></path></svg>
                         <div class="svc-name-home">Property<br />Maintenance</div>
                         <p class="svc-desc-home">Grass cutting, organic garden care, seasonal potters &amp; snow removal — all chemical-free. Customize your yearly membership package.</p>
@@ -121,7 +121,7 @@ export default function Home() {
 
                     <div class="svc-card-home">
                         <div class="svc-num-home">02</div>
-                        <div class="card-deco-home"><img src={Flower2} alt="" /></div>
+                        <div class="card-deco-home"><img src={Flower2} alt="icon" /></div>
                         <svg class="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 21l9-18 9 18H3z"></path><path d="M12 3v18M3 12h18"></path></svg>
                         <div class="svc-name-home">Regenerative<br />Landscaping</div>
                         <p class="svc-desc-home">Full design, install &amp; maintenance. Perennial gardens, rain gardens, water features &amp; habitat corridors — landscapes that heal the land.</p>
@@ -130,7 +130,7 @@ export default function Home() {
 
                     <div class="svc-card-home">
                         <div class="svc-num-home">03</div>
-                        <div class="card-deco-home"><img src={Flower3} alt="" /></div>
+                        <div class="card-deco-home"><img src={Flower3} alt="icon" /></div>
                         <svg class="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"></path></svg>
                         <div class="svc-name-home">Garden<br />Design</div>
                         <p class="svc-desc-home">Native pollinator gardens, woodland shade gardens, medicinal herb gardens &amp; meadows. Rooted in ecology, beautiful to inhabit.</p>
@@ -139,7 +139,7 @@ export default function Home() {
 
                     <div class="svc-card-home">
                         <div class="svc-num-home">04</div>
-                        <div class="card-deco-home"><img src={Tool1} alt="" /></div>
+                        <div class="card-deco-home"><img src={Tool1} alt="icon" /></div>
                         <svg class="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M17 8C8 10 5.9 16.2 3.8 22M9.5 15.5C11 12 14 8.5 20 7M9 22c0-5 2-11 8-14"></path></svg>
                         <div class="svc-name-home">Permaculture<br />Projects</div>
                         <p class="svc-desc-home">Orchards, food forests, edible &amp; medicinal gardens, composting systems. Design, install &amp; ongoing care — your own backyard ecosystem.</p>
@@ -148,7 +148,7 @@ export default function Home() {
 
                     <div class="svc-card-home">
                         <div class="svc-num-home">05</div>
-                        <div class="card-deco-home"><img src={Tool2} alt="" /></div>
+                        <div class="card-deco-home"><img src={Tool2} alt="icon" /></div>
                         <svg class="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 22V12M12 12C12 7 9 4 4 3c0 5 2 8 8 9zM12 12c0-5 3-8 8-9 0 5-2 8-8 9z"></path></svg>
                         <div class="svc-name-home">Tree Care<br />&amp; Removal</div>
                         <p class="svc-desc-home">Removal, pruning, stump grinding, storm cleanup &amp; trail maintenance. Fully insured. Full-circle — woodchips become mulch, logs become cutting boards. Servicing as far north as Sturgeon Bay.</p>
@@ -157,7 +157,7 @@ export default function Home() {
 
                     <div class="svc-card-home">
                         <div class="svc-num-home">06</div>
-                        <div class="card-deco-home"><img src={Tool3} alt="" /></div>
+                        <div class="card-deco-home"><img src={Tool3} alt="icon" /></div>
                         <svg class="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"></path><path d="M16 3H8L6 7h12l-2-4z"></path></svg>
                         <div class="svc-name-home">Snow<br />Removal</div>
                         <p class="svc-desc-home">Tractor snowblower + truck plow for maximum flexibility. Country laneways, driveways &amp; home-based businesses. Yearly memberships available.</p>
@@ -169,10 +169,10 @@ export default function Home() {
 
             <div class="photo-band">
                 <div class="pb-photo">
-                    <img src={Img} alt="" />
+                    <img src={Img} alt="work1" />
                 </div>
                 <div class="pb-photo">
-                    <img src={Img4} />
+                    <img src={Img4} alt="work2" />
                 </div>
                 <div class="pb-caption">
                     <h3 class="sec-title"><em>Beautiful</em> spaces that support life from the soil up.</h3>
@@ -241,7 +241,7 @@ export default function Home() {
             </section>
 
             <section class="testi">
-                <div class="testi-deco"><img src={Flower1} alt="" /></div>
+                <div class="testi-deco"><img src={Flower1} alt="icon" /></div>
                 <div class="testi-head">
                     <div class="sec-eye">Client Love</div>
                     <h2 class="sec-title">What our community <em>is saying</em></h2>
@@ -270,7 +270,6 @@ export default function Home() {
 
             <section class="area">
                 <div class="map-wrap">
-                    <img />
                     <div class="map-flag">Service Area</div>
                     <div class="map-inner">[ Interactive service area map<br />Wellington &amp; Peel Counties, ON ]</div>
                 </div>

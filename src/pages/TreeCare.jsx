@@ -206,7 +206,7 @@ export default function TreeCare() {
                     <h2 class="cta-title">Have a tree you're <em>worried about?</em></h2>
                     <p class="cta-sub">A risk assessment is the first step. We'll give you an honest evaluation of your tree's
                         condition and your options — no scare tactics.</p>
-                    <a href="#" class="btn-primary">Request an Assessment</a>
+                    <a href="/contact" class="btn-primary">Request an Assessment</a>
                 </section>
             </div>
         </div>

@@ -151,7 +151,7 @@ export default function About() {
                 <section class="cta">
                     <h2 class="cta-title">Every healthy landscape starts with<br /><em>understanding the local ecosystem.</em></h2>
                     <p class="cta-sub">Tell us about your property and what you're dreaming of or envisioning.</p>
-                    <a href="#" class="btn-primary">Book a Free Consultation</a>
+                    <a href="/contact" class="btn-primary">Book a Free Consultation</a>
                 </section>
             </div>
         </div>

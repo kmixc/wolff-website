@@ -19,18 +19,18 @@ export default function FAQ() {
                     <div class="faq-sidebar">
                         <div class="sec-eye">Categories</div>
                         <ul class="faq-cats">
-                            <li><a href="#" class="on">Our Approach</a></li>
-                            <li><a href="#">Organic &amp; Chemical-Free</a></li>
-                            <li><a href="#">Services &amp; Scope</a></li>
-                            <li><a href="#">Pricing &amp; Quotes</a></li>
-                            <li><a href="#">Service Area</a></li>
-                            <li><a href="#">Working With Us</a></li>
+                            <li><a href="/" class="on">Our Approach</a></li>
+                            <li><a href="/services">Organic &amp; Chemical-Free</a></li>
+                            <li><a href="/services">Services &amp; Scope</a></li>
+                            <li><a href="/services">Pricing &amp; Quotes</a></li>
+                            <li><a href="/services">Service Area</a></li>
+                            <li><a href="/services">Working With Us</a></li>
                         </ul>
                         <div >
                             <div class="sec-eye">Still have questions?</div>
                             <p >We're happy to
                                 have a real conversation. Book a free call and ask us anything.</p>
-                            <a href="#" class="btn-primary" >Book a Free Call</a>
+                            <a href="/contact" class="btn-primary" >Book a Free Call</a>
                         </div>
                     </div>
 

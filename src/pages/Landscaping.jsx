@@ -64,8 +64,8 @@ export default function Landscaping() {
                         <div class="pricing-note">All projects are individually assessed. Contact us for a free discovery call and
                             site visit.</div>
                     </div>
-                    <a href="#" class="btn-primary">Book a Consultation</a>&nbsp;&nbsp;<a href="#" class="btn-ghost">View
-                        Projects</a>
+                    <a href="/contact" class="btn-primary">Book a Consultation</a>&nbsp;&nbsp;
+                    <a href="/projects" class="btn-ghost">View Projects</a>
                 </div>
             </div>
 
@@ -98,7 +98,7 @@ export default function Landscaping() {
                 <h2 class="cta-title">Let's design something <em>alive.</em></h2>
                 <p class="cta-sub">Tell us about your land and we'll talk about what's possible — no pressure, no sales pitch,
                     just a genuine conversation.</p>
-                <a href="#" class="btn-primary">Book a Free Consultation</a>
+                <a href="/contact" class="btn-primary">Book a Free Consultation</a>
             </section>
 
         </div>
