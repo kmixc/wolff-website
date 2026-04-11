@@ -13,7 +13,7 @@ export default function TreeCare() {
                         <div className="page-hero-eye">Services / Tree Care</div>
                         <h1 className="page-hero-title">Your trees are an<br /><em>investment. We protect it.</em></h1>
                         <div className="page-hero-rule"></div>
-                        <p className="page-hero-sub">ISA Certified Arborist care — pruning, health assessment, safe removal, and
+                        <p className="page-hero-sub">Our team of fully insured arborists — pruning, health assessment, safe removal, and
                             preventative programs — all without synthetic chemicals. We work with your trees' natural growth patterns, not
                             against them.</p>
                     </div>
@@ -21,7 +21,7 @@ export default function TreeCare() {
 
                 <div className="strip">
                     <div className="strip-item">
-                        <div className="strip-dot"></div>ISA Certified Arborist
+                        <div className="strip-dot"></div>Fully insured arborists
                     </div>
                     <div className="strip-item">
                         <div className="strip-dot"></div>Chemical-Free Health Programs
@@ -130,7 +130,7 @@ export default function TreeCare() {
                         <div className="safety-checklist">
                             <div className="safety-item">
                                 <div className="safety-check"></div>
-                                <div className="safety-text"><strong>ISA Certified Arborist on every job</strong><span>Not a crew member with a
+                                <div className="safety-text"><strong>Fully insured arborists on every job</strong><span>Not a crew member with a
                                     chainsaw — a trained professional with deep knowledge of tree physiology and safe work practices.</span>
                                 </div>
                             </div>

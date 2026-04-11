@@ -49,6 +49,9 @@ export default function Footer() {
                     <div class="footer-soul-badge"><span class="footer-soul-icon">🌿</span>
                         <div class="footer-soul-txt"><span>Certified</span><span>SOUL Organic Land Care</span></div>
                     </div>
+                    <div class="footer-soul-badge"><span class="footer-soul-icon">🌱</span>
+                        <div class="footer-soul-txt"><span>Member</span><span>Landscape Ontario</span></div>
+                    </div>
                 </div>
             </footer>
         </div>

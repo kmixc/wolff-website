@@ -12,6 +12,11 @@ import Contact from './pages/Contact';
 import FAQ from './pages/FAQ';
 import Projects from './pages/Projects';
 
+import GardenDesign from "./pages/GardenDesign";
+import Permaculture from "./pages/PermacultureProjects";
+import SnowRemoval from "./pages/SnowRemoval";
+import Maintenance from "./pages/PropertyMaintenance";
+
 function App() {
   return (
     <div className="App">
@@ -23,6 +28,10 @@ function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/landscaping" element={<Landscaping />} />
           <Route path="/tree-care" element={<TreeCare />} />
+          <Route path="/garden-design" element={<GardenDesign />} />
+          <Route path="/permaculture-projects" element={<Permaculture />} />
+          <Route path="/snow-removal" element={<SnowRemoval />} />
+          <Route path="/property-maintenance" element={<Maintenance />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />

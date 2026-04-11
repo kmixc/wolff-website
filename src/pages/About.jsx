@@ -131,14 +131,9 @@ export default function About() {
                             <p className="cert-desc">Stewards of Our Urban Lands — organic land care certification, verified annually.</p>
                         </div>
                         <div className="cert-card">
-                            <div className="cert-icon">ISA</div>
-                            <div className="cert-title">ISA Arborist</div>
-                            <p className="cert-desc">International Society of Arboriculture certification for qualified tree care professionals.</p>
-                        </div>
-                        <div className="cert-card">
                             <div className="cert-icon">✦</div>
                             <div className="cert-title">Fully Insured</div>
-                            <p className="cert-desc">Comprehensive liability and WSIB coverage for all crew members and all work performed.</p>
+                            <p className="cert-desc">Our team of fully insured arborists provides liability and WSIB coverage for all crew members and every job.</p>
                         </div>
                         <div className="cert-card">
                             <div className="cert-icon">P</div>

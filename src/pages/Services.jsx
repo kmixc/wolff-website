@@ -79,16 +79,16 @@ export default function Services() {
                     <div className="svc-item">
                         <div className="svc-num">05</div>
                         <div className="svc-name">Tree Care <em>&amp; Removal</em></div>
-                        <p className="svc-desc">ISA Certified Arborist services: health assessments, structural pruning, safe removal, stump
-                            grinding, and ongoing tree care programs — all chemical-free.</p>
-                        <div className="svc-tags"><span className="svc-tag">Arborist</span><span className="svc-tag">ISA Certified</span></div>
+                        <p className="svc-desc">Our team of fully insured arborists provides health assessments, structural pruning, safe removal,
+                            stump grinding, and ongoing tree care programs — all chemical-free.</p>
+                        <div className="svc-tags"><span className="svc-tag">Arborist</span></div>
                     </div>
                     <div className="svc-item">
                         <div className="svc-num">06</div>
                         <div className="svc-name">Snow <em>Removal</em></div>
-                        <p className="svc-desc">Reliable winter property maintenance — plowing, shovelling, and eco-friendly de-icing that
-                            protects driveways, walkways, and the surrounding landscape.</p>
-                        <div className="svc-tags"><span className="svc-tag">Winter</span><span className="svc-tag">Eco De-Icing</span></div>
+                        <p className="svc-desc">Reliable winter property maintenance — plowing and shovelling to keep driveways, walkways, and
+                            the surrounding landscape accessible.</p>
+                        <div className="svc-tags"><span className="svc-tag">Winter</span></div>
                     </div>
                 </div>
 

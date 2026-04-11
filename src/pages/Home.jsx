@@ -116,7 +116,7 @@ export default function Home() {
                         <svg className="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="9"></circle><path d="M12 6v6l3.5 3.5"></path></svg>
                         <div className="svc-name-home">Property<br />Maintenance</div>
                         <p className="svc-desc-home">Grass cutting, organic garden care, seasonal potters &amp; snow removal — all chemical-free. Customize your yearly membership package.</p>
-                        <a href="/services" className="svc-link-home">View packages &nbsp;</a>
+                        <a href="/property-maintenance" className="svc-link-home">View packages &nbsp;</a>
                     </div>
 
                     <div className="svc-card-home">
@@ -125,7 +125,7 @@ export default function Home() {
                         <svg className="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M3 21l9-18 9 18H3z"></path><path d="M12 3v18M3 12h18"></path></svg>
                         <div className="svc-name-home">Regenerative<br />Landscaping</div>
                         <p className="svc-desc-home">Full design, install &amp; maintenance. Perennial gardens, rain gardens, water features &amp; habitat corridors — landscapes that heal the land.</p>
-                        <a href="/services" className="svc-link-home">See our work &nbsp;</a>
+                        <a href="/landscaping" className="svc-link-home">See our work &nbsp;</a>
                     </div>
 
                     <div className="svc-card-home">
@@ -134,7 +134,7 @@ export default function Home() {
                         <svg className="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><circle cx="12" cy="12" r="3"></circle><path d="M12 2v3M12 19v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M2 12h3M19 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"></path></svg>
                         <div className="svc-name-home">Garden<br />Design</div>
                         <p className="svc-desc-home">Native pollinator gardens, woodland shade gardens, medicinal herb gardens &amp; meadows. Rooted in ecology, beautiful to inhabit.</p>
-                        <a href="/services" className="svc-link-home">Browse designs &nbsp;</a>
+                        <a href="/garden-design" className="svc-link-home">Browse designs &nbsp;</a>
                     </div>
 
                     <div className="svc-card-home">
@@ -143,7 +143,7 @@ export default function Home() {
                         <svg className="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M17 8C8 10 5.9 16.2 3.8 22M9.5 15.5C11 12 14 8.5 20 7M9 22c0-5 2-11 8-14"></path></svg>
                         <div className="svc-name-home">Permaculture<br />Projects</div>
                         <p className="svc-desc-home">Orchards, food forests, edible &amp; medicinal gardens, composting systems. Design, install &amp; ongoing care — your own backyard ecosystem.</p>
-                        <a href="/services" className="svc-link-home">Learn more &nbsp;</a>
+                        <a href="/permaculture-projects" className="svc-link-home">Learn more &nbsp;</a>
                     </div>
 
                     <div className="svc-card-home">
@@ -152,7 +152,7 @@ export default function Home() {
                         <svg className="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"></path><path d="M16 3H8L6 7h12l-2-4z"></path></svg>
                         <div className="svc-name-home">Tree Care<br />&amp; Removal</div>
                         <p className="svc-desc-home">Removal, pruning, stump grinding, storm cleanup &amp; trail maintenance. Fully insured. Full-circle — woodchips become mulch, logs become cutting boards. Servicing as far north as Sturgeon Bay.</p>
-                        <a href="/services" className="svc-link-home">Tree services &nbsp;</a>
+                        <a href="/tree-care" className="svc-link-home">Tree services &nbsp;</a>
                     </div>
 
                     <div className="svc-card-home">
@@ -161,7 +161,7 @@ export default function Home() {
                         <svg className="svc-icon-home" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M20 7H4a2 2 0 00-2 2v10a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"></path><path d="M16 3H8L6 7h12l-2-4z"></path></svg>
                         <div className="svc-name-home">Snow<br />Removal</div>
                         <p className="svc-desc-home">Tractor snowblower + truck plow for maximum flexibility. Country laneways, driveways &amp; home-based businesses. Yearly memberships available.</p>
-                        <a href="/services" className="svc-link-home">Get on the list &nbsp;</a>
+                        <a href="/snow-removal" className="svc-link-home">Get on the list &nbsp;</a>
                     </div>
 
                 </div>
@@ -229,8 +229,8 @@ export default function Home() {
                         <div className="maint-season">Winter</div>
                         <div className="maint-name">Snow Removal</div>
                         <ul className="maint-list">
-                            <li>Tractor snowblower setup</li>
-                            <li>Truck plow for flexibility</li>
+                            <li>Truck plow setup</li>
+                            <li>Tractor snowblower for flexibility</li>
                             <li>Smart pile management</li>
                             <li>Residential laneways &amp; driveways</li>
                             <li>Home-based businesses welcome</li>
@@ -345,7 +345,7 @@ export default function Home() {
                 <div className="cert-div"></div>
                 <div className="cert-item">
                     <div className="cert-lbl">Member of</div>
-                    <div className="cert-name">[ Professional Associations ]</div>
+                    <div className="cert-name">Landscape Ontario</div>
                 </div>
             </div>
 
