@@ -1,9 +1,9 @@
 import React from 'react'
 import "../styles/services.css"
-import MaintenanceHero from '../assets/images/landscaping-4.jpg'
-import MaintenancePhoto1 from '../assets/images/landscaping-1.jpg'
-import MaintenancePhoto2 from '../assets/images/landscaping-3.jpg'
-import MaintenancePhoto3 from '../assets/images/hero-5.jpg'
+import MaintenanceHero from '../assets/images/hero-9.jpg'
+import MaintenancePhoto1 from '../assets/images/landscaping-3.jpg'
+import MaintenancePhoto2 from '../assets/images/hero-4.jpg'
+import MaintenancePhoto3 from '../assets/images/hero-6.jpg'
 import MaintenancePhoto4 from '../assets/images/hero-2.jpg'
 
 export default function PropertyMaintenance() {
