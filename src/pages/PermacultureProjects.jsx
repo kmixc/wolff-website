@@ -1,10 +1,11 @@
 import React from 'react'
 import "../styles/services.css"
-import PermacultureHero from '../assets/images/landscaping-4.jpg'
-import PermPhoto1 from '../assets/images/landscaping-1.jpg'
-import PermPhoto2 from '../assets/images/hero-5.jpg'
-import PermPhoto3 from '../assets/images/hero-6.jpg'
-import PermPhoto4 from '../assets/images/landscaping-3.jpg'
+import PermacultureHero from '../assets/images/hero-25.jpg'
+import PermPhoto1 from '../assets/images/hero-24.jpg'
+import PermPhoto2 from '../assets/images/hero-21.jpg'
+import PermPhoto3 from '../assets/images/hero-29.jpg'
+import PermPhoto4 from '../assets/images/hero-30.jpg'
+import PermPhoto5 from '../assets/images/hero-20.jpg'
 
 export default function PermacultureProjects() {
     return (
@@ -40,37 +41,6 @@ export default function PermacultureProjects() {
                     </div>
                     <div className="strip-item">
                         <div className="strip-dot"></div>Designs that grow stronger every year
-                    </div>
-                </div>
-
-                <div className="svc-detail-body">
-                    <div className="svc-detail-img">
-                        <div className="svc-detail-img-main">
-                            <img className='svc-detail-img-main' src={PermPhoto1} alt="Permaculture planting design" />
-                        </div>
-                    </div>
-                    <div className="svc-detail-text">
-                        <div className="sec-eye">What We Offer</div>
-                        <h2 className="sec-title">Permaculture systems that<br /><em>make sense for your land.</em></h2>
-                        <p className="sec-body">
-                            From food forests to rain gardens, our projects are built to increase fertility,
-                            support pollinators, and reduce the need for heavy maintenance over time.
-                        </p>
-                        <div className="svc-scope">
-                            <div className="scope-title">Included in every project</div>
-                            <ul className="scope-list">
-                                <li>Site assessment and regenerative design</li>
-                                <li>Planting plans with native and edible species</li>
-                                <li>Soil-building and mulch strategies</li>
-                                <li>Water management and habitat integration</li>
-                            </ul>
-                        </div>
-                        <div className="svc-pricing">
-                            <div className="pricing-label">Project planning</div>
-                            <div className="pricing-value">Custom quoted</div>
-                            <div className="pricing-note">We price each design for site scale, ecological complexity, and the level of installation support you want.</div>
-                        </div>
-                        <a href="/contact" className="btn-primary">Book a Consultation</a>
                     </div>
                 </div>
 
@@ -110,6 +80,37 @@ export default function PermacultureProjects() {
                     </div>
                 </section>
 
+                <div className="svc-detail-body">
+                    <div className="svc-detail-text">
+                        <div className="sec-eye">What We Offer</div>
+                        <h2 className="sec-title">Permaculture systems that<br /><em>make sense for your land.</em></h2>
+                        <p className="sec-body">
+                            From food forests to rain gardens, our projects are built to increase fertility,
+                            support pollinators, and reduce the need for heavy maintenance over time.
+                        </p>
+                        <div className="svc-scope">
+                            <div className="scope-title">Included in every project</div>
+                            <ul className="scope-list">
+                                <li>Site assessment and regenerative design</li>
+                                <li>Planting plans with native and edible species</li>
+                                <li>Soil-building and mulch strategies</li>
+                                <li>Water management and habitat integration</li>
+                            </ul>
+                        </div>
+                        <div className="svc-pricing">
+                            <div className="pricing-label">Project planning</div>
+                            <div className="pricing-value">Custom quoted</div>
+                            <div className="pricing-note">We price each design for site scale, ecological complexity, and the level of installation support you want.</div>
+                        </div>
+                        <a href="/contact" className="btn-primary">Book a Consultation</a>
+                    </div>
+                    <div className="svc-detail-img">
+                        <div className="svc-detail-img-main">
+                            <img className='svc-detail-img-main' src={PermPhoto1} alt="Permaculture planting design" />
+                        </div>
+                    </div>
+                </div>
+
                 <section className="service-gallery">
                     <div className="service-gallery-inner">
                         <div className="service-gallery-text">
@@ -128,7 +129,7 @@ export default function PermacultureProjects() {
                                 <img src={PermPhoto4} alt="Planting composition in a landscape" />
                             </div>
                             <div className="service-gallery-card">
-                                <img src={PermPhoto1} alt="Permaculture project planting" />
+                                <img src={PermPhoto5} alt="Permaculture project planting" />
                             </div>
                         </div>
                     </div>

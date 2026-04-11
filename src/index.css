@@ -974,13 +974,71 @@ footer {
   gap: 3rem;
   align-items: center;
   border-top: 1px solid rgba(90, 78, 59, 0.12);
-  padding: 3rem 0;
+  padding: 3rem 3rem;
   cursor: pointer;
-  transition: background .3s;
+  transition: background .3s ease, transform .3s ease;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  overflow: hidden;
+}
+
+.svc-item::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, rgba(148, 157, 114, 0.14), rgba(148, 157, 114, 0.05));
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform .35s ease;
+  pointer-events: none;
+}
+
+.svc-item::after {
+  content: 'View';
+  position: absolute;
+  right: 3rem;
+  top: 50%;
+  transform: translateY(-50%) translateX(-10px);
+  opacity: 0;
+  color: var(--obsidian);
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 0.55rem 1rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  transition: opacity .25s ease, transform .25s ease, background .25s ease, border .25s ease;
+  pointer-events: none;
+}
+
+.svc-item:hover {
+  background: rgba(90, 78, 59, 0.1);
+}
+
+.svc-item:hover::before {
+  transform: scaleX(1);
+}
+
+.svc-item:hover::after {
+  opacity: 1;
+  transform: translateY(-50%) translateX(0);
 }
 
 .svc-item:last-child {
   border-bottom: 1px solid rgba(90, 78, 59, 0.12);
+}
+
+.svc-tags {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.4rem;
+  padding-right: 0.8rem;
 }
 
 .svc-num {
@@ -1027,6 +1085,10 @@ footer {
 
 .svc-item:hover .svc-name {
   color: var(--moss);
+}
+
+.svc-item:hover .svc-desc {
+  color: rgba(34, 33, 27, 0.92);
 }
 
 .services-approach {

@@ -1,5 +1,6 @@
 import React from 'react'
 
+import ServicesHero from '../assets/images/hero-20.jpg'
 import TreeImg1 from '../assets/images/tree-1.jpg'
 
 export default function Services() {
@@ -7,7 +8,11 @@ export default function Services() {
         <div>
             <div id="page-services" className="page">
                 <section className="page-hero">
-                    <div className="page-hero-bg"></div>
+                    <div className="page-hero-bg" style={{
+                        backgroundImage: `linear-gradient(rgba(10, 10, 10, 0.28), rgba(10, 10, 10, 0.28)), url(${ServicesHero})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: 'center'
+                    }}></div>
                     <div className="page-hero-content">
                         <div className="page-hero-eye">What We Do</div>
                         <h1 className="page-hero-title">Organic land care,<br /><em>every season.</em></h1>
@@ -47,49 +52,49 @@ export default function Services() {
                 </div>
 
                 <div className="services-list">
-                    <div className="svc-item">
+                    <a className="svc-item" href="/property-maintenance">
                         <div className="svc-num">01</div>
                         <div className="svc-name">Property <em>Maintenance</em></div>
                         <p className="svc-desc">Ongoing organic lawn and garden care — mowing, edging, pruning, mulching, weeding, and
                             seasonal clean-ups that keep your property looking its best through every season.</p>
                         <div className="svc-tags"><span className="svc-tag">Year-Round</span><span className="svc-tag">Residential</span><span className="svc-tag">Commercial</span></div>
-                    </div>
-                    <div className="svc-item">
+                    </a>
+                    <a className="svc-item" href="/landscaping">
                         <div className="svc-num">02</div>
                         <div className="svc-name">Regenerative <em>Landscaping</em></div>
                         <p className="svc-desc">Design and installation of landscapes rooted in ecological principles — native plants, soil
                             regeneration, food forests, pollinator gardens, and living ground covers that outperform turf.</p>
                         <div className="svc-tags"><span className="svc-tag">Design &amp; Build</span><span className="svc-tag">Native Plants</span>
                         </div>
-                    </div>
-                    <div className="svc-item">
+                    </a>
+                    <a className="svc-item" href="/garden-design">
                         <div className="svc-num">03</div>
                         <div className="svc-name">Garden <em>Design</em></div>
                         <p className="svc-desc">Custom planting plans that balance beauty with ecological function. We design gardens that
                             peak across seasons and evolve gracefully over years, with minimal inputs and maximum life.</p>
                         <div className="svc-tags"><span className="svc-tag">Planting Plans</span><span className="svc-tag">Installation</span></div>
-                    </div>
-                    <div className="svc-item">
+                    </a>
+                    <a className="svc-item" href="/permaculture-projects">
                         <div className="svc-num">04</div>
                         <div className="svc-name">Permaculture <em>Projects</em></div>
                         <p className="svc-desc">Whole-property design using permaculture ethics and principles. Food forest creation, edible
                             landscapes, water harvesting earthworks, and integrated production systems for acreage properties.</p>
                         <div className="svc-tags"><span className="svc-tag">Acreage</span><span className="svc-tag">Rural</span></div>
-                    </div>
-                    <div className="svc-item">
+                    </a>
+                    <a className="svc-item" href="/tree-care">
                         <div className="svc-num">05</div>
                         <div className="svc-name">Tree Care <em>&amp; Removal</em></div>
                         <p className="svc-desc">Our team of fully insured arborists provides health assessments, structural pruning, safe removal,
                             stump grinding, and ongoing tree care programs — all chemical-free.</p>
                         <div className="svc-tags"><span className="svc-tag">Arborist</span></div>
-                    </div>
-                    <div className="svc-item">
+                    </a>
+                    <a className="svc-item" href="/snow-removal">
                         <div className="svc-num">06</div>
                         <div className="svc-name">Snow <em>Removal</em></div>
                         <p className="svc-desc">Reliable winter property maintenance — plowing and shovelling to keep driveways, walkways, and
                             the surrounding landscape accessible.</p>
                         <div className="svc-tags"><span className="svc-tag">Winter</span></div>
-                    </div>
+                    </a>
                 </div>
 
                 <section className="services-approach">

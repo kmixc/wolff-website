@@ -1,10 +1,13 @@
 import React from 'react'
 import "../styles/services.css"
-import GardenHero from '../assets/images/landscaping-4.jpg'
-import GardenPhoto1 from '../assets/images/landscaping-1.jpg'
-import GardenPhoto2 from '../assets/images/landscaping-2.jpg'
-import GardenPhoto3 from '../assets/images/hero-5.jpg'
-import GardenPhoto4 from '../assets/images/hero-6.jpg'
+import GardenHero from '../assets/images/hero-38.jpg'
+import GardenPhoto1 from '../assets/images/hero-35.jpg'
+import GardenPhoto2 from '../assets/images/hero-36.jpg'
+import GardenPhoto3 from '../assets/images/hero-34.jpg'
+import GardenPhoto4 from '../assets/images/hero-32.jpg'
+import GardenPhoto5 from '../assets/images/hero-28.jpg'
+import GardenPhoto6 from '../assets/images/hero-29.jpg'
+import GardenPhoto7 from '../assets/images/hero-12.jpg'
 
 export default function GardenDesign() {
     return (
@@ -138,16 +141,16 @@ export default function GardenDesign() {
                         </div>
                         <div className="service-gallery-grid">
                             <div className="service-gallery-card">
-                                <img src={GardenPhoto1} alt="Garden design plantings" />
-                            </div>
-                            <div className="service-gallery-card">
-                                <img src={GardenPhoto2} alt="Landscape with native plants" />
-                            </div>
-                            <div className="service-gallery-card">
-                                <img src={GardenPhoto3} alt="Seasonal garden design result" />
-                            </div>
-                            <div className="service-gallery-card">
                                 <img src={GardenPhoto4} alt="Garden path and planting detail" />
+                            </div>
+                            <div className="service-gallery-card">
+                                <img src={GardenPhoto5} alt="Landscape with native plants" />
+                            </div>
+                            <div className="service-gallery-card">
+                                <img src={GardenPhoto6} alt="Seasonal garden design result" />
+                            </div>
+                            <div className="service-gallery-card">
+                                <img src={GardenPhoto7} alt="Garden design plantings" />
                             </div>
                         </div>
                     </div>

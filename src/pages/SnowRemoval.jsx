@@ -2,6 +2,8 @@ import React from 'react'
 import "../styles/services.css"
 import SnowPhoto1 from '../assets/images/hero-7.jpg'
 import SnowPhoto2 from '../assets/images/hero-8.jpg'
+import SnowPhoto3 from '../assets/images/hero-9.jpg'
+import SnowPhoto4 from '../assets/images/hero-10.jpg'
 
 export default function SnowRemoval() {
     return (
@@ -87,6 +89,14 @@ export default function SnowRemoval() {
                         <div className="svc-detail-img-main">
                             <img className='svc-detail-img-main' src={SnowPhoto1} alt="Snow removal crew clearing a driveway" />
                         </div>
+                        <div className="svc-detail-img-thumb-row">
+                            <div className="svc-detail-img-thumb sdt1">
+                                <img className='svc-detail-img-thumb sdt1' src={SnowPhoto3} alt="Snow clearing with heavy equipment" />
+                            </div>
+                            <div className="svc-detail-img-thumb sdt2">
+                                <img className='svc-detail-img-thumb sdt2' src={SnowPhoto4} alt="Snow plow clearing a rural driveway" />
+                            </div>
+                        </div>
                     </div>
                     <div className="svc-detail-text">
                         <div className="sec-eye">Service Focus</div>
@@ -112,6 +122,30 @@ export default function SnowRemoval() {
                         <a href="/contact" className="btn-primary">Request a Winter Quote</a>
                     </div>
                 </div>
+
+                <section className="service-gallery">
+                    <div className="service-gallery-inner">
+                        <div className="service-gallery-text">
+                            <div className="sec-eye">In the field</div>
+                            <h2 className="service-section-title">More snow removal examples.</h2>
+                            <p className="service-section-body">From long lanes to narrow rural driveways, these shots show the equipment, access clearing, and winter-ready results we deliver.</p>
+                        </div>
+                        <div className="service-gallery-grid">
+                            <div className="service-gallery-card">
+                                <img src={SnowPhoto1} alt="Snow removal crew clearing a driveway" />
+                            </div>
+                            <div className="service-gallery-card">
+                                <img src={SnowPhoto2} alt="Snow-covered road being cleared" />
+                            </div>
+                            <div className="service-gallery-card">
+                                <img src={SnowPhoto3} alt="Snow clearing with heavy equipment" />
+                            </div>
+                            <div className="service-gallery-card">
+                                <img src={SnowPhoto4} alt="Snow plow clearing a rural driveway" />
+                            </div>
+                        </div>
+                    </div>
+                </section>
 
                 <section className="service-area">
                     <div className="service-area-inner">

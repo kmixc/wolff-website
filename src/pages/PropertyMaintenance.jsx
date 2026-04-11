@@ -1,10 +1,11 @@
 import React from 'react'
 import "../styles/services.css"
-import MaintenanceHero from '../assets/images/hero-9.jpg'
-import MaintenancePhoto1 from '../assets/images/landscaping-3.jpg'
-import MaintenancePhoto2 from '../assets/images/hero-4.jpg'
-import MaintenancePhoto3 from '../assets/images/hero-6.jpg'
-import MaintenancePhoto4 from '../assets/images/hero-2.jpg'
+import MaintenanceHero from '../assets/images/hero-10.jpg'
+import MaintenancePhoto1 from '../assets/images/hero-15.jpg'
+import MaintenancePhoto2 from '../assets/images/hero-26.jpg'
+import MaintenancePhoto3 from '../assets/images/hero-16.jpg'
+import MaintenancePhoto4 from '../assets/images/hero-12.jpg'
+import MaintenancePhoto5 from '../assets/images/hero-14.jpg'
 
 export default function PropertyMaintenance() {
     return (
@@ -125,16 +126,16 @@ export default function PropertyMaintenance() {
                         </div>
                         <div className="service-gallery-grid">
                             <div className="service-gallery-card">
-                                <img src={MaintenancePhoto1} alt="Maintenance crew working on a landscape" />
+                                <img src={MaintenancePhoto2} alt="Maintenance crew working on a landscape" />
                             </div>
                             <div className="service-gallery-card">
-                                <img src={MaintenancePhoto2} alt="Garden maintenance and planting care" />
+                                <img src={MaintenancePhoto3} alt="Garden maintenance and planting care" />
                             </div>
                             <div className="service-gallery-card">
-                                <img src={MaintenancePhoto3} alt="Healthy, maintained landscape" />
+                                <img src={MaintenancePhoto4} alt="Healthy, maintained landscape" />
                             </div>
                             <div className="service-gallery-card">
-                                <img src={MaintenancePhoto4} alt="Finished property maintenance result" />
+                                <img src={MaintenancePhoto5} alt="Finished property maintenance result" />
                             </div>
                         </div>
                     </div>
