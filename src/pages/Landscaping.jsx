@@ -3,13 +3,14 @@ import React from 'react'
 import LandscapingImg1 from '../assets/images/landscaping-1.jpg'
 import LandscapingImg2 from '../assets/images/hero-7.jpg'
 import LandscapingImg3 from '../assets/images/hero-8.jpg'
+import HeroImg from '../assets/images/hero-6.jpg'
 
 export default function Landscaping() {
     return (
         <div><div id="page-landscaping" className="page pt-nav">
 
             <section className="page-hero">
-                <div className="page-hero-bg"></div>
+                <div className="page-hero-bg" style={{ backgroundImage: `url(${HeroImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
                 <div className="page-hero-content">
                     <div className="page-hero-eye">Services / Landscaping</div>
                     <h1 className="page-hero-title">Landscapes that live,<br /><em>breathe, and endure.</em></h1>

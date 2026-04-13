@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/home.css'
+import ServiceAreaMap from '../components/ServiceAreaMap'
 
 import Logo from '../assets/images/WOLFF-Logo.png'
 
@@ -271,7 +272,7 @@ export default function Home() {
             <section className="area">
                 <div className="map-wrap">
                     <div className="map-flag">Service Area</div>
-                    <div className="map-inner">[ Interactive service area map<br />Wellington &amp; Peel Counties, ON ]</div>
+                    <ServiceAreaMap />
                 </div>
                 <div>
                     <div className="sec-eye">Where We Work</div>

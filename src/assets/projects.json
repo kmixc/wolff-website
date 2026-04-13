@@ -1,0 +1,205 @@
+[
+    {
+        "id": 1,
+        "slug": "erin-estate-native-restoration",
+        "name": "Erin Estate Native Restoration",
+        "tag": "Regenerative Landscaping · 2024",
+        "category": "Landscaping",
+        "location": "Erin, Ontario · 4.5 acres",
+        "year": "2024",
+        "featured": true,
+        "coverImage": "hero-6.jpg",
+        "images": [
+            "hero-6.jpg",
+            "hero-7.jpg",
+            "landscaping-1.jpg"
+        ],
+        "summary": "A full-scale native plant restoration across 4.5 acres of former turf lawn. We removed invasive species, rebuilt the soil with deep organic amendments, and planted over 3,000 native species including tall-grass prairie, wildflower meadow, and riparian corridor plantings.",
+        "scope": [
+            "Invasive species removal & site clearing",
+            "Soil health assessment & deep organic amendment",
+            "Native seed & plug installation across 4.5 acres",
+            "Riparian buffer planting along seasonal stream",
+            "Pollinator habitat design & installation",
+            "Ongoing stewardship & monitoring plan"
+        ],
+        "outcome": "The property now supports over 40 native plant species and has seen documented increases in pollinator and bird activity within the first season. The stream corridor is stabilizing and filtering agricultural runoff more effectively than before."
+    },
+    {
+        "id": 2,
+        "slug": "caledon-pollinator-garden",
+        "name": "Caledon Pollinator Garden",
+        "tag": "Garden Design · 2024",
+        "category": "Landscaping",
+        "location": "Caledon, Ontario",
+        "year": "2024",
+        "featured": false,
+        "coverImage": "hero-9.jpg",
+        "images": [
+            "hero-9.jpg",
+            "landscaping-2.jpg"
+        ],
+        "summary": "A front and back yard transformation from conventional turf to a layered pollinator garden rich with native perennials, flowering shrubs, and seasonal interest. Designed to support migratory monarchs, native bees, and hummingbirds throughout the season.",
+        "scope": [
+            "Existing lawn removal (no-till sheet mulch method)",
+            "Custom planting plan with 100% native species",
+            "Soil amendment with compost & biochar",
+            "Install of 200+ native plugs & shrubs",
+            "Mulching with wood chip & leaf litter",
+            "Client education & seasonal care guide"
+        ],
+        "outcome": "A vibrant, low-maintenance garden that eliminated the need for chemical fertilizers and pesticides entirely. The client reports noticeably more butterflies, bees, and birds than any previous season."
+    },
+    {
+        "id": 3,
+        "slug": "orangeville-heritage-oak",
+        "name": "Orangeville Heritage Oak",
+        "tag": "Tree Care · 2024",
+        "category": "Tree Care",
+        "location": "Orangeville, Ontario",
+        "year": "2024",
+        "featured": false,
+        "coverImage": "hero-8.jpg",
+        "images": [
+            "hero-8.jpg",
+            "tree-1.jpg"
+        ],
+        "summary": "Structural assessment, crown restoration pruning, and long-term health plan for a 200+ year old Bur Oak on a residential property. This tree is a neighbourhood landmark and required careful, expert attention to preserve it for future generations.",
+        "scope": [
+            "Full structural & health assessment",
+            "Dead wood removal & crown cleaning",
+            "Selective pruning for light & airflow",
+            "Soil aeration & deep root fertilization (organic)",
+            "Cable bracing for a major co-dominant stem",
+            "Documented health report & 3-year monitoring plan"
+        ],
+        "outcome": "The tree is thriving. New growth is vigorous and the crown has visibly improved density. Cabling reduced movement on the co-dominant stem and the root zone is recovering well with improved aeration."
+    },
+    {
+        "id": 4,
+        "slug": "guelph-food-forest",
+        "name": "Guelph Food Forest",
+        "tag": "Permaculture · 2023",
+        "category": "Permaculture",
+        "location": "Guelph, Ontario · 1.2 acres",
+        "year": "2023",
+        "featured": false,
+        "coverImage": "hero-2.jpg",
+        "images": [
+            "hero-2.jpg",
+            "landscaping-3.jpg"
+        ],
+        "summary": "Design and installation of a 7-layer food forest on a 1.2 acre urban-edge property. The system includes canopy fruit trees, sub-canopy nitrogen fixers, berry shrubs, perennial vegetables, ground covers, root crops, and vertical vines — producing food year-round.",
+        "scope": [
+            "Permaculture design consultation & site analysis",
+            "7-layer food forest design & species selection",
+            "Soil building with compost, biochar & wood chips",
+            "Installation of 80+ fruit, nut & berry plants",
+            "Irrigation design & installation",
+            "Guild planting & companion species integration",
+            "Full documentation & stewardship guide"
+        ],
+        "outcome": "By season two, the food forest is already producing. The clients harvested strawberries, raspberries, and herbs in the first year. The system is self-mulching and requires minimal external inputs."
+    },
+    {
+        "id": 5,
+        "slug": "mono-rural-estate",
+        "name": "Mono Rural Estate",
+        "tag": "Maintenance · Ongoing",
+        "category": "Maintenance",
+        "location": "Mono, Ontario",
+        "year": "Ongoing",
+        "featured": false,
+        "coverImage": "hero-9.jpg",
+        "images": [
+            "hero-9.jpg",
+            "landscaping-4.jpg"
+        ],
+        "summary": "Year-round organic property maintenance for a 12-acre rural estate. We manage woodlot trails, meadow mowing, ornamental beds, seasonal clean-ups, and coordinate seasonal plantings — all without synthetic inputs.",
+        "scope": [
+            "Spring & fall property clean-ups",
+            "Organic lawn care & seasonal mowing",
+            "Ornamental bed weeding & mulching",
+            "Woodlot trail clearing & brush removal",
+            "Seasonal plantings & bed refreshes",
+            "Snow removal (winter season)",
+            "Seasonal check-ins & condition reports"
+        ],
+        "outcome": "The property has been pesticide-free for 3 seasons under our stewardship. Soil health is measurably improving year over year and the client reports greater satisfaction with the land than ever before."
+    },
+    {
+        "id": 6,
+        "slug": "elora-rain-garden",
+        "name": "Elora Rain Garden",
+        "tag": "Garden Design · 2023",
+        "category": "Landscaping",
+        "location": "Elora, Ontario",
+        "year": "2023",
+        "featured": false,
+        "coverImage": "hero-9.jpg",
+        "images": [
+            "hero-9.jpg",
+            "hero-7.jpg"
+        ],
+        "summary": "Design and installation of a bioswale and rain garden system to manage stormwater runoff from a steep driveway and hardscape area. Planted with moisture-tolerant native species that filter and absorb water while creating beautiful seasonal display.",
+        "scope": [
+            "Stormwater flow assessment & grading plan",
+            "Bioswale excavation & shaping",
+            "Gravel infiltration bed installation",
+            "Native moisture-tolerant planting design",
+            "Edging & mulching for erosion control",
+            "Client education on system maintenance"
+        ],
+        "outcome": "Eliminated standing water and basement seepage that the client had dealt with for years. The rain garden filters an estimated 10,000L of runoff per storm event and looks beautiful doing it."
+    },
+    {
+        "id": 7,
+        "slug": "hillsburgh-meadow-conversion",
+        "name": "Hillsburgh Meadow Conversion",
+        "tag": "Landscaping · 2023",
+        "category": "Landscaping",
+        "location": "Hillsburgh, Ontario",
+        "year": "2023",
+        "featured": false,
+        "coverImage": "hero-2.jpg",
+        "images": [
+            "hero-2.jpg",
+            "hero-6.jpg"
+        ],
+        "summary": "Conversion of 2 acres of hay field into a native wildflower and tall-grass prairie meadow. Used a combination of over-seeding, plug planting, and strategic mowing to suppress invasives and establish a diverse, self-sustaining native plant community.",
+        "scope": [
+            "Soil testing & site assessment",
+            "Selective mowing & competitive weed suppression",
+            "Native seed mix custom-blended for the site",
+            "Over-seeding by broadcast & drill seeder",
+            "Native plug installation in key areas",
+            "Year 1 & 2 management mowing plan"
+        ],
+        "outcome": "By year two the meadow is establishing strongly with over 25 native species confirmed. The conversion has dramatically reduced the client's mowing costs and schedule."
+    },
+    {
+        "id": 8,
+        "slug": "fergus-woodlot-management",
+        "name": "Fergus Woodlot Management",
+        "tag": "Tree Care · 2023",
+        "category": "Tree Care",
+        "location": "Fergus, Ontario",
+        "year": "2023",
+        "featured": false,
+        "coverImage": "hero-8.jpg",
+        "images": [
+            "hero-8.jpg",
+            "tree-2.jpg"
+        ],
+        "summary": "Ecological woodlot management across 6 acres of mixed hardwood forest. We removed hazard trees, cleared invasive shrubs (buckthorn and honeysuckle), re-opened suppressed native understory, and established a long-term selective harvest and restoration plan.",
+        "scope": [
+            "Full woodlot assessment & species inventory",
+            "Hazard tree identification & removal",
+            "Invasive shrub removal (buckthorn, honeysuckle)",
+            "Selective canopy thinning for understory recovery",
+            "Native understory planting in cleared areas",
+            "5-year woodlot stewardship & harvest plan"
+        ],
+        "outcome": "Native understory species — including trillium, bloodroot, and native ferns — have begun re-establishing in areas cleared of invasives. The woodlot is on a clear trajectory toward ecological health."
+    }
+]

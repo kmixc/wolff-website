@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { useForm, ValidationError } from '@formspree/react'
+import ContactMap from '../components/ContactMap'
 
 const CONTACT_SECTIONS = {
     general: {
@@ -390,7 +391,7 @@ export default function Contact() {
                 </div>
 
                 <div className="contact-map">
-                    <span>Map placeholder — Erin / Headwaters Region, Ontario</span>
+                    <ContactMap />
                 </div>
 
                 <section className="cta">

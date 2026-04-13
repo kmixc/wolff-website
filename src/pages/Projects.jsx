@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 
 import ProjectImg1 from '../assets/images/hero-6.jpg'
 import ProjectImg2 from '../assets/images/hero-9.jpg'
@@ -11,6 +12,7 @@ export default function Projects() {
     const projects = [
         {
             id: 1,
+            slug: 'erin-estate-native-restoration',
             img: ProjectImg1,
             tag: 'Regenerative Landscaping · 2024',
             name: 'Erin Estate Native Restoration',
@@ -20,6 +22,7 @@ export default function Projects() {
         },
         {
             id: 2,
+            slug: 'caledon-pollinator-garden',
             img: ProjectImg2,
             tag: 'Garden Design · 2024',
             name: 'Caledon Pollinator Garden',
@@ -28,6 +31,7 @@ export default function Projects() {
         },
         {
             id: 3,
+            slug: 'orangeville-heritage-oak',
             img: ProjectImg3,
             tag: 'Tree Care · 2024',
             name: 'Orangeville Heritage Oak',
@@ -36,6 +40,7 @@ export default function Projects() {
         },
         {
             id: 4,
+            slug: 'guelph-food-forest',
             img: ProjectImg4,
             tag: 'Permaculture · 2023',
             name: 'Guelph Food Forest',
@@ -44,6 +49,7 @@ export default function Projects() {
         },
         {
             id: 5,
+            slug: 'mono-rural-estate',
             img: ProjectImg2,
             tag: 'Maintenance · Ongoing',
             name: 'Mono Rural Estate',
@@ -52,6 +58,7 @@ export default function Projects() {
         },
         {
             id: 6,
+            slug: 'elora-rain-garden',
             img: ProjectImg2,
             tag: 'Garden Design · 2023',
             name: 'Elora Rain Garden',
@@ -60,6 +67,7 @@ export default function Projects() {
         },
         {
             id: 7,
+            slug: 'hillsburgh-meadow-conversion',
             img: ProjectImg4,
             tag: 'Landscaping · 2023',
             name: 'Hillsburgh Meadow Conversion',
@@ -68,6 +76,7 @@ export default function Projects() {
         },
         {
             id: 8,
+            slug: 'fergus-woodlot-management',
             img: ProjectImg3,
             tag: 'Tree Care · 2023',
             name: 'Fergus Woodlot Management',
@@ -83,7 +92,7 @@ export default function Projects() {
             <div id="page-projects" className="page pt-nav">
 
                 <section className="page-hero">
-                    <div className="page-hero-bg"></div>
+                    <div className="page-hero-bg" style={{ backgroundImage: `url(${ProjectImg3})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
                     <div className="page-hero-content">
                         <div className="page-hero-eye">Our Work</div>
                         <h1 className="page-hero-title">Land transformed<br /><em>with care.</em></h1>
@@ -104,7 +113,7 @@ export default function Projects() {
 
                 <div className="projects-grid">
                     {filteredProjects.map(project => (
-                        <div key={project.id} className={`proj-card ${project.featured ? 'featured' : ''}`}>
+                        <Link key={project.id} to={`/projects/${project.slug}`} className={`proj-card ${project.featured ? 'featured' : ''}`} style={{ textDecoration: 'none', color: 'inherit', display: 'block' }}>
                             <div className="proj-img">
                                 <div className={`proj-img-fill proj-img-fill-${project.id % 6 + 1}`}>
                                     <img className='proj-img-fill' src={project.img} alt={project.name} />
@@ -113,7 +122,7 @@ export default function Projects() {
                             <div className="proj-tag">{project.tag}</div>
                             <div className="proj-name">{project.name}</div>
                             <div className="proj-loc">{project.loc}</div>
-                        </div>
+                        </Link>
                     ))}
                 </div>
 

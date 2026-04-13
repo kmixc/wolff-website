@@ -1,6 +1,7 @@
 import React from 'react'
 
 import TreeCareImg1 from '../assets/images/tree-3.jpg'
+import HeroImg from '../assets/images/hero-39.jpg'
 
 export default function TreeCare() {
     return (
@@ -8,7 +9,7 @@ export default function TreeCare() {
             <div id="page-treecare" className="page pt-nav">
 
                 <section className="page-hero">
-                    <div className="page-hero-bg"></div>
+                    <div className="page-hero-bg" style={{ backgroundImage: `url(${HeroImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
                     <div className="page-hero-content">
                         <div className="page-hero-eye">Services / Tree Care</div>
                         <h1 className="page-hero-title">Your trees are an<br /><em>investment. We protect it.</em></h1>

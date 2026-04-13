@@ -17,6 +17,9 @@ import Permaculture from "./pages/PermacultureProjects";
 import SnowRemoval from "./pages/SnowRemoval";
 import Maintenance from "./pages/PropertyMaintenance";
 
+import NotFound from './pages/NotFound';
+import ProjectDetail from './pages/ProjectDetail';
+
 function App() {
   return (
     <div className="App">
@@ -33,8 +36,10 @@ function App() {
           <Route path="/snow-removal" element={<SnowRemoval />} />
           <Route path="/property-maintenance" element={<Maintenance />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/:slug" element={<ProjectDetail />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/faq" element={<FAQ />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
       </BrowserRouter>
