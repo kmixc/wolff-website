@@ -259,7 +259,7 @@ export default function ProjectDetail() {
                             >
                                 <img
                                     src={src}
-                                    alt={`${project.name} photo ${i + 4}`}
+                                    alt={`${project.name} ${i + 4}`}
                                     style={{
                                         width: '100%', height: '100%',
                                         objectFit: 'cover', display: 'block',
