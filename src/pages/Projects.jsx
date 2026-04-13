@@ -1,10 +1,14 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import ProjectImg1 from '../assets/images/hero-6.jpg'
-import ProjectImg2 from '../assets/images/hero-9.jpg'
-import ProjectImg3 from '../assets/images/hero-8.jpg'
-import ProjectImg4 from '../assets/images/hero-2.jpg'
+import ProjectImg1 from '../assets/images/hero-38.jpg'
+import ProjectImg2 from '../assets/images/garden-1.jpg'
+import ProjectImg3 from '../assets/images/tree-6.jpg'
+import ProjectImg4 from '../assets/images/landscaping-4.jpg'
+import ProjectImg5 from '../assets/images/maintenance-1.jpg'
+import ProjectImg6 from '../assets/images/snowremoval-1.jpg'
+import ProjectImg7 from '../assets/images/tree-7.jpg'
+import ProjectImg8 from '../assets/images/landscaping-3.jpg'
 
 export default function Projects() {
     const [activeFilter, setActiveFilter] = useState('All Projects');
@@ -14,7 +18,7 @@ export default function Projects() {
             id: 1,
             slug: 'erin-estate-native-restoration',
             img: ProjectImg1,
-            tag: 'Regenerative Landscaping · 2024',
+            tag: 'Regenerative Landscaping · 2025',
             name: 'Erin Estate Native Restoration',
             loc: 'Erin, Ontario · 4.5 acres',
             category: 'Landscaping',
@@ -24,7 +28,7 @@ export default function Projects() {
             id: 2,
             slug: 'caledon-pollinator-garden',
             img: ProjectImg2,
-            tag: 'Garden Design · 2024',
+            tag: 'Garden Design · 2025',
             name: 'Caledon Pollinator Garden',
             loc: 'Caledon, Ontario',
             category: 'Landscaping'
@@ -33,7 +37,7 @@ export default function Projects() {
             id: 3,
             slug: 'orangeville-heritage-oak',
             img: ProjectImg3,
-            tag: 'Tree Care · 2024',
+            tag: 'Tree Care · 2025',
             name: 'Orangeville Heritage Oak',
             loc: 'Orangeville, Ontario',
             category: 'Tree Care'
@@ -42,7 +46,7 @@ export default function Projects() {
             id: 4,
             slug: 'guelph-food-forest',
             img: ProjectImg4,
-            tag: 'Permaculture · 2023',
+            tag: 'Permaculture · 2025',
             name: 'Guelph Food Forest',
             loc: 'Guelph, Ontario · 1.2 acres',
             category: 'Permaculture'
@@ -50,7 +54,7 @@ export default function Projects() {
         {
             id: 5,
             slug: 'mono-rural-estate',
-            img: ProjectImg2,
+            img: ProjectImg5,
             tag: 'Maintenance · Ongoing',
             name: 'Mono Rural Estate',
             loc: 'Mono, Ontario',
@@ -59,8 +63,8 @@ export default function Projects() {
         {
             id: 6,
             slug: 'elora-rain-garden',
-            img: ProjectImg2,
-            tag: 'Garden Design · 2023',
+            img: ProjectImg6,
+            tag: 'Garden Design · 2025',
             name: 'Elora Rain Garden',
             loc: 'Elora, Ontario',
             category: 'Landscaping'
@@ -68,8 +72,8 @@ export default function Projects() {
         {
             id: 7,
             slug: 'hillsburgh-meadow-conversion',
-            img: ProjectImg4,
-            tag: 'Landscaping · 2023',
+            img: ProjectImg8,
+            tag: 'Landscaping · 2025',
             name: 'Hillsburgh Meadow Conversion',
             loc: 'Hillsburgh, Ontario',
             category: 'Landscaping'
@@ -77,8 +81,8 @@ export default function Projects() {
         {
             id: 8,
             slug: 'fergus-woodlot-management',
-            img: ProjectImg3,
-            tag: 'Tree Care · 2023',
+            img: ProjectImg7,
+            tag: 'Tree Care · 2025',
             name: 'Fergus Woodlot Management',
             loc: 'Fergus, Ontario',
             category: 'Tree Care'
