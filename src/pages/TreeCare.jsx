@@ -52,7 +52,6 @@ export default function TreeCare() {
                             <div className="tree-card-title">Structural Pruning</div>
                             <p className="tree-card-body">Crown thinning, deadwood removal, and structural work that improves form, light
                                 penetration, and long-term health. Done by hand with the tree's architecture in mind.</p>
-                            <span className="tree-card-link">Learn more →</span>
                         </div>
                         <div className="tree-card">
                             <div className="tree-icon">
@@ -65,7 +64,6 @@ export default function TreeCare() {
                             <div className="tree-card-title">Health Assessments</div>
                             <p className="tree-card-body">A thorough evaluation of your tree's structural integrity and vitality — identifying
                                 disease, pest pressure, root issues, and risk factors before they become expensive problems.</p>
-                            <span className="tree-card-link">Learn more →</span>
                         </div>
                         <div className="tree-card">
                             <div className="tree-icon">
@@ -79,7 +77,6 @@ export default function TreeCare() {
                             <div className="tree-card-title">Tree Removal</div>
                             <p className="tree-card-body">Safe, methodical removal of hazardous, dying, or misplaced trees. We use rigging and
                                 sectional techniques to protect your property and surrounding vegetation.</p>
-                            <span className="tree-card-link">Learn more →</span>
                         </div>
                         <div className="tree-card">
                             <div className="tree-icon">
@@ -91,7 +88,6 @@ export default function TreeCare() {
                             <div className="tree-card-title">Stump Grinding</div>
                             <p className="tree-card-body">Complete stump removal below ground level, leaving a clean finish ready for
                                 planting, sod, or hardscaping. Chips available as mulch for your garden beds.</p>
-                            <span className="tree-card-link">Learn more →</span>
                         </div>
                         <div className="tree-card">
                             <div className="tree-icon">
@@ -103,7 +99,6 @@ export default function TreeCare() {
                             <div className="tree-card-title">Storm Damage</div>
                             <p className="tree-card-body">Priority response for storm-damaged trees — removing broken limbs, assessing
                                 structural compromise, and stabilizing trees to prevent further damage and liability.</p>
-                            <span className="tree-card-link">Learn more →</span>
                         </div>
                         <div className="tree-card">
                             <div className="tree-icon">
@@ -116,7 +111,6 @@ export default function TreeCare() {
                             <div className="tree-card-title">Young Tree Training</div>
                             <p className="tree-card-body">Early structural pruning for newly planted trees that sets them up for decades of
                                 strength and beauty. An ounce of training now saves a pound of remediation later.</p>
-                            <span className="tree-card-link">Learn more →</span>
                         </div>
                     </div>
                 </section>
