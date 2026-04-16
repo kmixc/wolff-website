@@ -17,6 +17,19 @@
 
 html {
   scroll-behavior: smooth;
+  font-size: 17px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 16.75px;
+  }
 }
 
 body {
@@ -1385,6 +1398,17 @@ footer {
   position: relative;
 }
 
+.gal-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.gal-link:focus-visible {
+  outline: 2px solid #e9efe3;
+  outline-offset: 3px;
+}
+
 .gal-item.tall {
   grid-row: span 2;
 }
@@ -1396,6 +1420,24 @@ footer {
   display: flex;
   align-items: flex-end;
   padding: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.gal-fill::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(19, 24, 16, 0.7) 0%, rgba(19, 24, 16, 0.15) 55%, rgba(19, 24, 16, 0.05) 100%);
+  pointer-events: none;
+}
+
+.gal-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  inset: 0;
 }
 
 .gal-fill-a {
@@ -1418,7 +1460,9 @@ footer {
   font-family: 'Cormorant Garamond', serif;
   font-size: 0.85rem;
   font-style: italic;
-  color: rgba(250, 250, 248, 0.45);
+  color: rgba(250, 250, 248, 0.92);
+  position: relative;
+  z-index: 1;
 }
 
 /* Responsive for Landscaping Page */

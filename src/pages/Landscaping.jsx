@@ -1,9 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import LandscapingImg1 from '../assets/images/landscaping-1.jpg'
 import LandscapingImg2 from '../assets/images/hero-7.jpg'
 import LandscapingImg3 from '../assets/images/hero-8.jpg'
 import HeroImg from '../assets/images/hero-6.jpg'
+import ProjectImg1 from '../assets/images/hero-38.jpg'
+import ProjectImg2 from '../assets/images/garden-1.jpg'
+import ProjectImg4 from '../assets/images/landscaping-4.jpg'
+import ProjectImg5 from '../assets/images/maintenance-1.jpg'
+import ProjectImg6 from '../assets/images/snowremoval-1.jpg'
 
 export default function Landscaping() {
     return (
@@ -86,31 +92,36 @@ export default function Landscaping() {
                     <h2 className="sec-title">Projects that show what's <em>possible</em></h2>
                 </div>
                 <div className="gallery-grid">
-                    <div className="gal-item tall">
+                    <Link to="/projects/erin-estate-native-restoration" className="gal-item tall gal-link" aria-label="View Erin Estate Native Restoration project">
                         <div className="gal-fill gal-fill-a" >
-                            <span className="gal-label">Erin Estate — Native meadow restoration</span>
+                            <img className="gal-image" src={ProjectImg1} alt="Erin Estate Native Restoration" />
+                            <span className="gal-label">Erin Estate Native Restoration</span>
                         </div>
-                    </div>
-                    <div className="gal-item">
+                    </Link>
+                    <Link to="/projects/caledon-pollinator-garden" className="gal-item gal-link" aria-label="View Caledon Pollinator Garden project">
                         <div className="gal-fill gal-fill-b">
-                            <span className="gal-label">Caledon — Pollinator border</span>
+                            <img className="gal-image" src={ProjectImg2} alt="Caledon Pollinator Garden" />
+                            <span className="gal-label">Caledon Pollinator Garden</span>
                         </div>
-                    </div>
-                    <div className="gal-item">
+                    </Link>
+                    <Link to="/projects/elora-rain-garden" className="gal-item gal-link" aria-label="View Elora Rain Garden project">
                         <div className="gal-fill gal-fill-c">
-                            <span className="gal-label">Orangeville — Rain garden</span>
+                            <img className="gal-image" src={ProjectImg6} alt="Elora Rain Garden" />
+                            <span className="gal-label">Elora Rain Garden</span>
                         </div>
-                    </div>
-                    <div className="gal-item">
+                    </Link>
+                    <Link to="/projects/guelph-food-forest" className="gal-item gal-link" aria-label="View Guelph Food Forest project">
                         <div className="gal-fill gal-fill-d">
-                            <span className="gal-label">Guelph — Food forest install</span>
+                            <img className="gal-image" src={ProjectImg4} alt="Guelph Food Forest" />
+                            <span className="gal-label">Guelph Food Forest</span>
                         </div>
-                    </div>
-                    <div className="gal-item">
+                    </Link>
+                    <Link to="/projects/mono-rural-estate" className="gal-item gal-link" aria-label="View Mono Rural Estate project">
                         <div className="gal-fill gal-fill-b">
-                            <span className="gal-label">Mono — Shade garden redesign</span>
+                            <img className="gal-image" src={ProjectImg5} alt="Mono Rural Estate" />
+                            <span className="gal-label">Mono Rural Estate</span>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </section>
 
