@@ -1,14 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
-import ProjectImg1 from '../assets/images/hero-38.jpg'
-import ProjectImg2 from '../assets/images/garden-1.jpg'
-import ProjectImg3 from '../assets/images/tree-6.jpg'
-import ProjectImg4 from '../assets/images/landscaping-4.jpg'
-import ProjectImg5 from '../assets/images/maintenance-1.jpg'
-import ProjectImg6 from '../assets/images/snowremoval-1.jpg'
-import ProjectImg7 from '../assets/images/tree-7.jpg'
-import ProjectImg8 from '../assets/images/landscaping-3.jpg'
+import ProjectsHeroImg from '../assets/images/projects/hero.jpg'
 import ProjectImg9 from '../assets/images/projects/landscaping/georgetown_&_alton_driveway_grading/main_1.jpg'
 import ProjectImg10 from '../assets/images/projects/landscaping/orangeville_native_tree_planting/main_1.jpg'
 import ProjectImg11 from '../assets/images/projects/landscaping/erin_old_broken_pond_demo_and_overgrown_shrubs_SOD_install/main_1.jpg'
@@ -31,79 +24,6 @@ export default function Projects() {
     const [activeFilter, setActiveFilter] = useState('All Projects');
 
     const projects = [
-        {
-            id: 1,
-            slug: 'erin-estate-native-restoration',
-            img: ProjectImg1,
-            tag: 'Regenerative Landscaping · 2025',
-            name: 'Erin Estate Native Restoration',
-            loc: 'Erin, Ontario · 4.5 acres',
-            category: 'Landscaping',
-            featured: true
-        },
-        {
-            id: 2,
-            slug: 'caledon-pollinator-garden',
-            img: ProjectImg2,
-            tag: 'Garden Design · 2025',
-            name: 'Caledon Pollinator Garden',
-            loc: 'Caledon, Ontario',
-            category: 'Landscaping'
-        },
-        {
-            id: 3,
-            slug: 'orangeville-heritage-oak',
-            img: ProjectImg3,
-            tag: 'Tree Care · 2025',
-            name: 'Orangeville Heritage Oak',
-            loc: 'Orangeville, Ontario',
-            category: 'Tree Care'
-        },
-        {
-            id: 4,
-            slug: 'guelph-food-forest',
-            img: ProjectImg4,
-            tag: 'Permaculture · 2025',
-            name: 'Guelph Food Forest',
-            loc: 'Guelph, Ontario · 1.2 acres',
-            category: 'Permaculture'
-        },
-        {
-            id: 5,
-            slug: 'mono-rural-estate',
-            img: ProjectImg5,
-            tag: 'Maintenance · Ongoing',
-            name: 'Mono Rural Estate',
-            loc: 'Mono, Ontario',
-            category: 'Maintenance'
-        },
-        {
-            id: 6,
-            slug: 'elora-rain-garden',
-            img: ProjectImg6,
-            tag: 'Garden Design · 2025',
-            name: 'Elora Rain Garden',
-            loc: 'Elora, Ontario',
-            category: 'Landscaping'
-        },
-        {
-            id: 7,
-            slug: 'hillsburgh-meadow-conversion',
-            img: ProjectImg8,
-            tag: 'Landscaping · 2025',
-            name: 'Hillsburgh Meadow Conversion',
-            loc: 'Hillsburgh, Ontario',
-            category: 'Landscaping'
-        },
-        {
-            id: 8,
-            slug: 'fergus-woodlot-management',
-            img: ProjectImg7,
-            tag: 'Tree Care · 2025',
-            name: 'Fergus Woodlot Management',
-            loc: 'Fergus, Ontario',
-            category: 'Tree Care'
-        },
         {
             id: 9,
             slug: 'georgetown-alton-driveway-grading',
@@ -266,7 +186,7 @@ export default function Projects() {
             <div id="page-projects" className="page pt-nav">
 
                 <section className="page-hero">
-                    <div className="page-hero-bg" style={{ backgroundImage: `url(${ProjectImg3})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
+                    <div className="page-hero-bg" style={{ backgroundImage: `url(${ProjectsHeroImg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
                     <div className="page-hero-content">
                         <div className="page-hero-eye">Our Work</div>
                         <h1 className="page-hero-title">Land transformed<br /><em>with care.</em></h1>
