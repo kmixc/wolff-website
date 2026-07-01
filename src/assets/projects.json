@@ -204,5 +204,250 @@
             "5-year woodlot stewardship & harvest plan"
         ],
         "outcome": "Native understory species — including trillium, bloodroot, and native ferns — have begun re-establishing in areas cleared of invasives. The woodlot is on a clear trajectory toward ecological health."
+    },
+    {
+        "id": 9,
+        "slug": "georgetown-alton-driveway-grading",
+        "name": "Georgetown & Alton Driveway Grading",
+        "tag": "Landscaping · 2025",
+        "category": "Landscaping",
+        "location": "Georgetown & Alton, Ontario",
+        "year": "2025",
+        "featured": false,
+        "coverImage": "projects/landscaping/georgetown_&_alton_driveway_grading/main_1.jpg",
+        "images": [
+            "projects/landscaping/georgetown_&_alton_driveway_grading/main_1.jpg",
+            "projects/landscaping/georgetown_&_alton_driveway_grading/2.jpg",
+            "projects/landscaping/georgetown_&_alton_driveway_grading/3.jpg"
+        ],
+        "summary": "Driveway grading across properties in Georgetown and Alton to correct potholes and uneven spots, with overgrown weeds cleared along the way. The regraded surface also sets both driveways up for proper winter snow removal.",
+        "scope": [
+            "Driveway grading to fix potholes and uneven spots",
+            "Weed clean-up along driveway edges",
+            "Grading adjustments to support proper winter snow removal"
+        ],
+        "outcome": "Both driveways now shed water properly and are ready for easier, more effective snow clearing this winter."
+    },
+    {
+        "id": 10,
+        "slug": "orangeville-native-tree-planting",
+        "name": "Orangeville Native Tree Planting",
+        "tag": "Landscaping · 2025",
+        "category": "Landscaping",
+        "location": "Orangeville, Ontario · Commercial Property",
+        "year": "2025",
+        "featured": false,
+        "coverImage": "projects/landscaping/orangeville_native_tree_planting/main_1.jpg",
+        "images": [
+            "projects/landscaping/orangeville_native_tree_planting/main_1.jpg",
+            "projects/landscaping/orangeville_native_tree_planting/2.jpg",
+            "projects/landscaping/orangeville_native_tree_planting/3.jpg"
+        ],
+        "summary": "Planting of Eastern Redbud and Bur Oak trees on a commercial property in Orangeville, installed with soil inoculant and compost for strong root establishment and finished with a clean, deep mulch edge.",
+        "scope": [
+            "Planting of Eastern Redbud and Burr Oak trees",
+            "Soil inoculant and compost applied at planting",
+            "Deep mulch edging installed for a clean, finished look"
+        ]
+    },
+    {
+        "id": 11,
+        "slug": "erin-pond-demo-and-sod-install",
+        "name": "Erin Pond Demo & Overgrown Shrub Removal",
+        "tag": "Landscaping · 2025",
+        "category": "Landscaping",
+        "location": "Erin, Ontario",
+        "year": "2025",
+        "featured": false,
+        "coverImage": "projects/landscaping/erin_old_broken_pond_demo_and_overgrown_shrubs_SOD_install/main_1.jpg",
+        "images": [
+            "projects/landscaping/erin_old_broken_pond_demo_and_overgrown_shrubs_SOD_install/main_1.jpg",
+            "projects/landscaping/erin_old_broken_pond_demo_and_overgrown_shrubs_SOD_install/2.jpg",
+            "projects/landscaping/erin_old_broken_pond_demo_and_overgrown_shrubs_SOD_install/3.jpg"
+        ],
+        "summary": "Removal of an old, broken pond and overgrown shrubs left behind by previous owners, whose decaying wood-and-nail borders had become a safety hazard. The area was cleared and re-sodded to give the client's family and dog a clean, safe space with an open view of the forest.",
+        "scope": [
+            "Demolition of old, broken pond and unsafe wood-and-nail borders",
+            "Removal of overgrown shrubs",
+            "SOD installation to restore the yard"
+        ],
+        "outcome": "The property is now safe for the client's family and dog to enjoy, with a clean, open view of the forest."
+    },
+    {
+        "id": 12,
+        "slug": "erin-house-number-garlic-mustard-control",
+        "name": "Erin House Number Install & Garlic Mustard Control",
+        "tag": "Landscaping · 2023-2026",
+        "category": "Landscaping",
+        "location": "Erin, Ontario",
+        "year": "2023-2026",
+        "featured": false,
+        "coverImage": "projects/landscaping/erin_house_number_install_and_invasive_garlic_mustard_control/main_1.jpg",
+        "images": [
+            "projects/landscaping/erin_house_number_install_and_invasive_garlic_mustard_control/main_1.jpg",
+            "projects/landscaping/erin_house_number_install_and_invasive_garlic_mustard_control/2.jpg"
+        ],
+        "summary": "A multi-year effort to bring invasive garlic mustard under control on an Erin property, alongside a new house number install. Garlic mustard was weeded out before going to seed each season, mulch was applied to suppress regrowth, and new plants were added.",
+        "scope": [
+            "Seasonal garlic mustard removal before seed-set",
+            "Mulch application to control invasive regrowth",
+            "New plantings introduced",
+            "House number installation"
+        ],
+        "outcome": "After three seasons of consistent stewardship, garlic mustard is under control and the property has a clean, finished look."
+    },
+    {
+        "id": 13,
+        "slug": "hillsburgh-vegetable-garden-bed",
+        "name": "Hillsburgh Vegetable Garden Bed",
+        "tag": "Landscaping · 2025",
+        "category": "Landscaping",
+        "location": "Hillsburgh, Ontario",
+        "year": "2025",
+        "featured": false,
+        "coverImage": "projects/landscaping/hillsburgh_vegetable_garden_bed/main_1.jpg",
+        "images": [
+            "projects/landscaping/hillsburgh_vegetable_garden_bed/main_1.jpg",
+            "projects/landscaping/hillsburgh_vegetable_garden_bed/2.jpg",
+            "projects/landscaping/hillsburgh_vegetable_garden_bed/3.jpg",
+            "projects/landscaping/hillsburgh_vegetable_garden_bed/4.jpg",
+            "projects/landscaping/hillsburgh_vegetable_garden_bed/5.jpg"
+        ],
+        "summary": "A vegetable raised bed built using the Hügelkultur technique — layering logs, leaves, sticks, compost, green plant waste, worm castings, and soil to mimic the natural forest floor. Also known as sheet mulching, each layer is placed with a specific purpose so the materials interact and break down together.",
+        "scope": [
+            "Raised bed construction using Hügelkultur layering",
+            "Base layer of logs and sticks for structure and moisture retention",
+            "Layered leaves, compost, green plant waste, and worm castings",
+            "Topsoil finish for planting"
+        ]
+    },
+    {
+        "id": 14,
+        "slug": "caledon-grass-and-garden-maintenance",
+        "name": "Caledon Grass & Garden Maintenance",
+        "tag": "Maintenance · Since 2024",
+        "category": "Maintenance",
+        "location": "Caledon, Ontario",
+        "year": "2024-Present",
+        "featured": false,
+        "coverImage": "projects/maintenance/caledon_grass_and_garden_maintenance/main_1.jpg",
+        "images": [
+            "projects/maintenance/caledon_grass_and_garden_maintenance/main_1.jpg",
+            "projects/maintenance/caledon_grass_and_garden_maintenance/2.jpg",
+            "projects/maintenance/caledon_grass_and_garden_maintenance/3.jpg",
+            "projects/maintenance/caledon_grass_and_garden_maintenance/4.jpg",
+            "projects/maintenance/caledon_grass_and_garden_maintenance/5.jpg",
+            "projects/maintenance/caledon_grass_and_garden_maintenance/6.jpg",
+            "projects/maintenance/caledon_grass_and_garden_maintenance/7.jpg",
+            "projects/maintenance/caledon_grass_and_garden_maintenance/8.jpg"
+        ],
+        "summary": "Ongoing weekly grass cutting and garden maintenance for a Caledon property since 2024, kept to a clean, tidy standard with crisp garden edges and hedges. Spring compost and worm castings are applied each season to keep the soil and plants healthy.",
+        "scope": [
+            "Weekly grass cutting",
+            "Weekly garden maintenance",
+            "Spring compost and worm castings application",
+            "Clean garden edging and hedge trimming"
+        ]
+    },
+    {
+        "id": 15,
+        "slug": "alton-property-maintenance",
+        "name": "Alton Property Maintenance",
+        "tag": "Maintenance · Since 2025",
+        "category": "Maintenance",
+        "location": "Alton, Ontario",
+        "year": "2025-Present",
+        "featured": false,
+        "coverImage": "projects/maintenance/alton_property_maintenance/main_1.jpg",
+        "images": [
+            "projects/maintenance/alton_property_maintenance/main_1.jpg",
+            "projects/maintenance/alton_property_maintenance/2.jpg",
+            "projects/maintenance/alton_property_maintenance/3.jpg",
+            "projects/maintenance/alton_property_maintenance/4.jpg"
+        ],
+        "summary": "Ongoing weekly grass cutting and seasonal garden maintenance for an Alton property since 2025. Leaves are left in the garden beds to nourish the soil and help naturally suppress weeds.",
+        "scope": [
+            "Weekly grass cutting",
+            "Garden maintenance throughout the season",
+            "Leaves left in garden beds for soil nourishment and weed suppression"
+        ]
+    },
+    {
+        "id": 16,
+        "slug": "liberty-inn-maintenance",
+        "name": "Liberty Inn Maintenance",
+        "tag": "Maintenance · Since 2025",
+        "category": "Maintenance",
+        "location": "Headwaters Region, Ontario",
+        "year": "2025-Present",
+        "featured": false,
+        "coverImage": "projects/maintenance/liberty_inn_maintenance/main_1.jpg",
+        "images": [
+            "projects/maintenance/liberty_inn_maintenance/main_1.jpg",
+            "projects/maintenance/liberty_inn_maintenance/2.jpg",
+            "projects/maintenance/liberty_inn_maintenance/3.jpg",
+            "projects/maintenance/liberty_inn_maintenance/4.jpg",
+            "projects/maintenance/liberty_inn_maintenance/5.jpg",
+            "projects/maintenance/liberty_inn_maintenance/6.jpg"
+        ],
+        "summary": "Full-service property maintenance for the Liberty Inn since 2025, from weekly grass cutting and garden maintenance to SOD installation, tree removal, winter storm damage clean-up, and bulb planting — helping keep the Inn beautiful for guests year-round.",
+        "scope": [
+            "Weekly grass cutting and garden maintenance",
+            "SOD installation",
+            "Tree removal",
+            "Winter tree damage clean-up",
+            "Bulb planting"
+        ]
+    },
+    {
+        "id": 17,
+        "slug": "terra-cotta-garden-maintenance",
+        "name": "Terra Cotta Garden Maintenance",
+        "tag": "Maintenance · Since 2023",
+        "category": "Maintenance",
+        "location": "Terra Cotta, Ontario",
+        "year": "2023-Present",
+        "featured": false,
+        "coverImage": "projects/maintenance/terra_cotta_garden_maintenance/main_1.jpg",
+        "images": [
+            "projects/maintenance/terra_cotta_garden_maintenance/main_1.jpg",
+            "projects/maintenance/terra_cotta_garden_maintenance/2.jpg"
+        ],
+        "summary": "Maintenance of a low-maintenance garden in Terra Cotta since 2023, with new plants and spring bulbs added over the years for extra colour. Yearly compost, worm castings, and mulch keep the soil healthy, finished with round hedge trimming.",
+        "scope": [
+            "Ongoing low-maintenance garden upkeep",
+            "New plantings and spring bulb additions",
+            "Yearly compost, worm castings, and mulch application",
+            "Round hedge trimming"
+        ]
+    },
+    {
+        "id": 18,
+        "slug": "erin-rural-acreage-organic-land-care",
+        "name": "Erin Rural Acreage Organic Land Care",
+        "tag": "Maintenance · Since 2024",
+        "category": "Maintenance",
+        "location": "Erin, Ontario",
+        "year": "2024-Present",
+        "featured": false,
+        "coverImage": "projects/maintenance/erin_rural_acreage_organic_land_care/main_1.jpg",
+        "images": [
+            "projects/maintenance/erin_rural_acreage_organic_land_care/main_1.jpg",
+            "projects/maintenance/erin_rural_acreage_organic_land_care/2.jpg",
+            "projects/maintenance/erin_rural_acreage_organic_land_care/3.jpg",
+            "projects/maintenance/erin_rural_acreage_organic_land_care/4.jpg",
+            "projects/maintenance/erin_rural_acreage_organic_land_care/5.jpg",
+            "projects/maintenance/erin_rural_acreage_organic_land_care/6.jpg"
+        ],
+        "summary": "Year-round organic land care for a rural Erin acreage since 2024, covering everything from garden and tree work to snow removal. Services have included splitting firewood for winter heating, digging a trench for wiring, forest management to remove invasive Scotch Pine, and general grounds upkeep.",
+        "scope": [
+            "Grass cutting and garden maintenance",
+            "Log splitting for firewood",
+            "Trench digging for wiring",
+            "Forest management — invasive Scotch Pine removal",
+            "Bulb planting and weed whacking",
+            "Deck pressure washing",
+            "Snow removal"
+        ]
     }
 ]

@@ -9,6 +9,16 @@ import ProjectImg5 from '../assets/images/maintenance-1.jpg'
 import ProjectImg6 from '../assets/images/snowremoval-1.jpg'
 import ProjectImg7 from '../assets/images/tree-7.jpg'
 import ProjectImg8 from '../assets/images/landscaping-3.jpg'
+import ProjectImg9 from '../assets/images/projects/landscaping/georgetown_&_alton_driveway_grading/main_1.jpg'
+import ProjectImg10 from '../assets/images/projects/landscaping/orangeville_native_tree_planting/main_1.jpg'
+import ProjectImg11 from '../assets/images/projects/landscaping/erin_old_broken_pond_demo_and_overgrown_shrubs_SOD_install/main_1.jpg'
+import ProjectImg12 from '../assets/images/projects/landscaping/erin_house_number_install_and_invasive_garlic_mustard_control/main_1.jpg'
+import ProjectImg13 from '../assets/images/projects/landscaping/hillsburgh_vegetable_garden_bed/main_1.jpg'
+import ProjectImg14 from '../assets/images/projects/maintenance/caledon_grass_and_garden_maintenance/main_1.jpg'
+import ProjectImg15 from '../assets/images/projects/maintenance/alton_property_maintenance/main_1.jpg'
+import ProjectImg16 from '../assets/images/projects/maintenance/liberty_inn_maintenance/main_1.jpg'
+import ProjectImg17 from '../assets/images/projects/maintenance/terra_cotta_garden_maintenance/main_1.jpg'
+import ProjectImg18 from '../assets/images/projects/maintenance/erin_rural_acreage_organic_land_care/main_1.jpg'
 
 export default function Projects() {
     const [activeFilter, setActiveFilter] = useState('All Projects');
@@ -86,6 +96,96 @@ export default function Projects() {
             name: 'Fergus Woodlot Management',
             loc: 'Fergus, Ontario',
             category: 'Tree Care'
+        },
+        {
+            id: 9,
+            slug: 'georgetown-alton-driveway-grading',
+            img: ProjectImg9,
+            tag: 'Landscaping · 2025',
+            name: 'Georgetown & Alton Driveway Grading',
+            loc: 'Georgetown & Alton, Ontario',
+            category: 'Landscaping'
+        },
+        {
+            id: 10,
+            slug: 'orangeville-native-tree-planting',
+            img: ProjectImg10,
+            tag: 'Landscaping · 2025',
+            name: 'Orangeville Native Tree Planting',
+            loc: 'Orangeville, Ontario · Commercial Property',
+            category: 'Landscaping'
+        },
+        {
+            id: 11,
+            slug: 'erin-pond-demo-and-sod-install',
+            img: ProjectImg11,
+            tag: 'Landscaping · 2025',
+            name: 'Erin Pond Demo & Overgrown Shrub Removal',
+            loc: 'Erin, Ontario',
+            category: 'Landscaping'
+        },
+        {
+            id: 12,
+            slug: 'erin-house-number-garlic-mustard-control',
+            img: ProjectImg12,
+            tag: 'Landscaping · 2023-2026',
+            name: 'Erin House Number Install & Garlic Mustard Control',
+            loc: 'Erin, Ontario',
+            category: 'Landscaping'
+        },
+        {
+            id: 13,
+            slug: 'hillsburgh-vegetable-garden-bed',
+            img: ProjectImg13,
+            tag: 'Landscaping · 2025',
+            name: 'Hillsburgh Vegetable Garden Bed',
+            loc: 'Hillsburgh, Ontario',
+            category: 'Landscaping'
+        },
+        {
+            id: 14,
+            slug: 'caledon-grass-and-garden-maintenance',
+            img: ProjectImg14,
+            tag: 'Maintenance · Since 2024',
+            name: 'Caledon Grass & Garden Maintenance',
+            loc: 'Caledon, Ontario',
+            category: 'Maintenance'
+        },
+        {
+            id: 15,
+            slug: 'alton-property-maintenance',
+            img: ProjectImg15,
+            tag: 'Maintenance · Since 2025',
+            name: 'Alton Property Maintenance',
+            loc: 'Alton, Ontario',
+            category: 'Maintenance'
+        },
+        {
+            id: 16,
+            slug: 'liberty-inn-maintenance',
+            img: ProjectImg16,
+            tag: 'Maintenance · Since 2025',
+            name: 'Liberty Inn Maintenance',
+            loc: 'Headwaters Region, Ontario',
+            category: 'Maintenance'
+        },
+        {
+            id: 17,
+            slug: 'terra-cotta-garden-maintenance',
+            img: ProjectImg17,
+            tag: 'Maintenance · Since 2023',
+            name: 'Terra Cotta Garden Maintenance',
+            loc: 'Terra Cotta, Ontario',
+            category: 'Maintenance'
+        },
+        {
+            id: 18,
+            slug: 'erin-rural-acreage-organic-land-care',
+            img: ProjectImg18,
+            tag: 'Maintenance · Since 2024',
+            name: 'Erin Rural Acreage Organic Land Care',
+            loc: 'Erin, Ontario',
+            category: 'Maintenance'
         }
     ];
 
