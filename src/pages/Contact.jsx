@@ -397,9 +397,9 @@ export default function Contact() {
                 </div>
 
                 <section className="cta">
-                    <h2 className="cta-title">Prefer to <em>book directly?</em></h2>
-                    <p className="cta-sub">Skip the form — book a free 20-minute discovery call and we'll figure out the rest from there.</p>
-                    <a href="/contact" className="btn-primary">Book a Discovery Call</a>
+                    <h2 className="cta-title">Prefer to <em>talk it through?</em></h2>
+                    <p className="cta-sub">Call now to speak with Alex and book a site visit. If we don't answer right away, leave a message and we'll get back to you during our open hours.</p>
+                    <a href="tel:6472050415" className="btn-primary">Call 647-205-0415</a>
                 </section>
 
             </div>

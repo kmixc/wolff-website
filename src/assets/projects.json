@@ -449,5 +449,168 @@
             "Deck pressure washing",
             "Snow removal"
         ]
+    },
+    {
+        "id": 19,
+        "slug": "winter-ice-storm-clean-up",
+        "name": "Winter Ice Storm Clean-Up",
+        "tag": "Tree Care · 2025-2026",
+        "category": "Tree Care",
+        "location": "Headwaters Region, Ontario",
+        "year": "2025-2026",
+        "featured": false,
+        "coverImage": "projects/tree_services/winter_ice_storm_clean_up/main_1.jpg",
+        "images": [
+            "projects/tree_services/winter_ice_storm_clean_up/main_1.jpg",
+            "projects/tree_services/winter_ice_storm_clean_up/2.jpg",
+            "projects/tree_services/winter_ice_storm_clean_up/3.jpg",
+            "projects/tree_services/winter_ice_storm_clean_up/4.jpg"
+        ],
+        "summary": "Two winter ice storms caused significant tree damage across the region. The WOLFF team was on-site the same day to clear the damage, with all debris removed off-site and the property left clean.",
+        "scope": [
+            "Same-day emergency ice storm clean-up response",
+            "Removal of storm-damaged trees and limbs",
+            "All debris hauled off-site and property cleaned"
+        ]
+    },
+    {
+        "id": 20,
+        "slug": "removal-of-white-pine-mono",
+        "name": "Removal of White Pine in Mono",
+        "tag": "Tree Care · 2025",
+        "category": "Tree Care",
+        "location": "Mono, Ontario",
+        "year": "2025",
+        "featured": false,
+        "coverImage": "projects/tree_services/removal_of_white_pine_by_a_house_in_mono/main_1.jpg",
+        "images": [
+            "projects/tree_services/removal_of_white_pine_by_a_house_in_mono/main_1.jpg",
+            "projects/tree_services/removal_of_white_pine_by_a_house_in_mono/2.jpg",
+            "projects/tree_services/removal_of_white_pine_by_a_house_in_mono/3.jpg",
+            "projects/tree_services/removal_of_white_pine_by_a_house_in_mono/4.jpg"
+        ],
+        "summary": "A White Pine near a home in Mono had become a concern for the owner. Kurt climbed and safely removed the entire tree by hand, with all materials removed off-site and the property left clean. The client opted to leave the stump in place.",
+        "scope": [
+            "Full tree assessment",
+            "Technical climbing removal by hand",
+            "All materials removed off-site and site cleaned"
+        ]
+    },
+    {
+        "id": 21,
+        "slug": "hillsburgh-cedar-hedge-planting",
+        "name": "Hillsburgh Cedar Hedge Planting",
+        "tag": "Tree Care · 2025",
+        "category": "Tree Care",
+        "location": "Hillsburgh, Ontario",
+        "year": "2025",
+        "featured": false,
+        "coverImage": "projects/tree_services/hillsburgh_cedar_hedge_planting/main_1.jpg",
+        "images": [
+            "projects/tree_services/hillsburgh_cedar_hedge_planting/main_1.jpg",
+            "projects/tree_services/hillsburgh_cedar_hedge_planting/2.jpg",
+            "projects/tree_services/hillsburgh_cedar_hedge_planting/3.jpg"
+        ],
+        "summary": "Planting of Emerald Cedars in Hillsburgh to create privacy, continuing an existing hedge row already established on the property.",
+        "scope": [
+            "Emerald Cedar hedge planting for privacy screening",
+            "Continuation of existing hedge row to match client's vision"
+        ]
+    },
+    {
+        "id": 22,
+        "slug": "laneway-snow-removal",
+        "name": "Laneway Snow Removal",
+        "tag": "Snow Removal · Since 2024",
+        "category": "Snow Removal",
+        "location": "Headwaters Region, Ontario",
+        "year": "2024-Present",
+        "featured": false,
+        "coverImage": "projects/snow_removal/laneway_snow_removal/main_1.jpg",
+        "images": [
+            "projects/snow_removal/laneway_snow_removal/main_1.jpg",
+            "projects/snow_removal/laneway_snow_removal/2.jpg"
+        ],
+        "summary": "Ongoing laneway snow removal since 2024, cleared efficiently with a tractor and snow blower. Equipment upgrades are planned for Winter 2026 to serve clients even better.",
+        "scope": [
+            "Laneway snow clearing with tractor and snow blower",
+            "Reliable service through the 2024 and 2025 winter seasons"
+        ]
+    },
+    {
+        "id": 23,
+        "slug": "hillsburgh-fall-feature-garden-design",
+        "name": "Hillsburgh Fall Feature Garden Design",
+        "tag": "Garden Design · 2025",
+        "category": "Landscaping",
+        "location": "Hillsburgh, Ontario",
+        "year": "2025",
+        "featured": false,
+        "coverImage": "projects/design/hillsburgh_fall_feature_garden_design/1.jpg",
+        "images": [
+            "projects/design/hillsburgh_fall_feature_garden_design/1.jpg",
+            "projects/design/hillsburgh_fall_feature_garden_design/2.jpg",
+            "projects/design/hillsburgh_fall_feature_garden_design/3.jpg",
+            "projects/design/hillsburgh_fall_feature_garden_design/4.jpg",
+            "projects/design/hillsburgh_fall_feature_garden_design/5.jpg",
+            "projects/design/hillsburgh_fall_feature_garden_design/6.jpg",
+            "projects/design/hillsburgh_fall_feature_garden_design/7.jpg",
+            "projects/design/hillsburgh_fall_feature_garden_design/8.jpg",
+            "projects/design/hillsburgh_fall_feature_garden_design/9.jpg"
+        ],
+        "summary": "A feature garden built at the end of a Hillsburgh driveway for a client who wanted a low-maintenance, mostly native garden with beautiful fall colour for family gatherings — and no ornamental grasses. The WOLFF team designed around a feature Redbud tree, paired with perennials including echinacea, prairie smoke, coral bells, astilbe, and more.",
+        "scope": [
+            "Feature garden design & installation",
+            "Native, low-maintenance perennial selection",
+            "Redbud tree as central feature planting",
+            "Fall-colour focused plant palette — echinacea, prairie smoke, coral bells, astilbe & more"
+        ]
+    },
+    {
+        "id": 24,
+        "slug": "rockwood-memorial-grass-garden",
+        "name": "Rockwood Memorial Grass Garden",
+        "tag": "Garden Design · 2024",
+        "category": "Landscaping",
+        "location": "Rockwood, Ontario",
+        "year": "2024",
+        "featured": false,
+        "coverImage": "projects/design/rockwood_memorial_grass_garden/main_1.jpg",
+        "images": [
+            "projects/design/rockwood_memorial_grass_garden/main_1.jpg",
+            "projects/design/rockwood_memorial_grass_garden/2.jpg",
+            "projects/design/rockwood_memorial_grass_garden/3.jpg"
+        ],
+        "summary": "A memorial garden designed to honour the client's late wife, whose garden had grown wild after she passed. We replaced it with an ornamental grass garden that moves gently in the wind, paired with white peonies planted in her memory, and continue to maintain the garden today.",
+        "scope": [
+            "Removal of overgrown, unmaintained garden beds",
+            "Ornamental grass garden design & installation",
+            "White peony memorial planting",
+            "Ongoing garden maintenance"
+        ]
+    },
+    {
+        "id": 25,
+        "slug": "woodland-rocky-garden",
+        "name": "Woodland Rocky Garden",
+        "tag": "Garden Design · 2025",
+        "category": "Landscaping",
+        "location": "Headwaters Region, Ontario",
+        "year": "2025",
+        "featured": false,
+        "coverImage": "projects/design/woodland_rocky_garden/main_1.jpg",
+        "images": [
+            "projects/design/woodland_rocky_garden/main_1.jpg",
+            "projects/design/woodland_rocky_garden/2.jpg",
+            "projects/design/woodland_rocky_garden/3.jpg",
+            "projects/design/woodland_rocky_garden/4.jpg"
+        ],
+        "summary": "Removal of two cedar trees that were causing issues with the client's roof and house ahead of a roof replacement, with the wood chipped into mulch for reuse on-site. We then designed and installed a new garden in the cleared space, and continue to maintain it.",
+        "scope": [
+            "Removal of two problem cedar trees",
+            "Wood chipped into mulch for on-site reuse",
+            "Garden design & installation in cleared area",
+            "Ongoing garden maintenance"
+        ]
     }
 ]

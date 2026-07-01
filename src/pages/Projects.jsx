@@ -19,6 +19,13 @@ import ProjectImg15 from '../assets/images/projects/maintenance/alton_property_m
 import ProjectImg16 from '../assets/images/projects/maintenance/liberty_inn_maintenance/main_1.jpg'
 import ProjectImg17 from '../assets/images/projects/maintenance/terra_cotta_garden_maintenance/main_1.jpg'
 import ProjectImg18 from '../assets/images/projects/maintenance/erin_rural_acreage_organic_land_care/main_1.jpg'
+import ProjectImg19 from '../assets/images/projects/tree_services/winter_ice_storm_clean_up/main_1.jpg'
+import ProjectImg20 from '../assets/images/projects/tree_services/removal_of_white_pine_by_a_house_in_mono/main_1.jpg'
+import ProjectImg21 from '../assets/images/projects/tree_services/hillsburgh_cedar_hedge_planting/main_1.jpg'
+import ProjectImg22 from '../assets/images/projects/snow_removal/laneway_snow_removal/main_1.jpg'
+import ProjectImg23 from '../assets/images/projects/design/hillsburgh_fall_feature_garden_design/1.jpg'
+import ProjectImg24 from '../assets/images/projects/design/rockwood_memorial_grass_garden/main_1.jpg'
+import ProjectImg25 from '../assets/images/projects/design/woodland_rocky_garden/main_1.jpg'
 
 export default function Projects() {
     const [activeFilter, setActiveFilter] = useState('All Projects');
@@ -186,6 +193,69 @@ export default function Projects() {
             name: 'Erin Rural Acreage Organic Land Care',
             loc: 'Erin, Ontario',
             category: 'Maintenance'
+        },
+        {
+            id: 19,
+            slug: 'winter-ice-storm-clean-up',
+            img: ProjectImg19,
+            tag: 'Tree Care · 2025-2026',
+            name: 'Winter Ice Storm Clean-Up',
+            loc: 'Headwaters Region, Ontario',
+            category: 'Tree Care'
+        },
+        {
+            id: 20,
+            slug: 'removal-of-white-pine-mono',
+            img: ProjectImg20,
+            tag: 'Tree Care · 2025',
+            name: 'Removal of White Pine in Mono',
+            loc: 'Mono, Ontario',
+            category: 'Tree Care'
+        },
+        {
+            id: 21,
+            slug: 'hillsburgh-cedar-hedge-planting',
+            img: ProjectImg21,
+            tag: 'Tree Care · 2025',
+            name: 'Hillsburgh Cedar Hedge Planting',
+            loc: 'Hillsburgh, Ontario',
+            category: 'Tree Care'
+        },
+        {
+            id: 22,
+            slug: 'laneway-snow-removal',
+            img: ProjectImg22,
+            tag: 'Snow Removal · Since 2024',
+            name: 'Laneway Snow Removal',
+            loc: 'Headwaters Region, Ontario',
+            category: 'Snow Removal'
+        },
+        {
+            id: 23,
+            slug: 'hillsburgh-fall-feature-garden-design',
+            img: ProjectImg23,
+            tag: 'Garden Design · 2025',
+            name: 'Hillsburgh Fall Feature Garden Design',
+            loc: 'Hillsburgh, Ontario',
+            category: 'Landscaping'
+        },
+        {
+            id: 24,
+            slug: 'rockwood-memorial-grass-garden',
+            img: ProjectImg24,
+            tag: 'Garden Design · 2024',
+            name: 'Rockwood Memorial Grass Garden',
+            loc: 'Rockwood, Ontario',
+            category: 'Landscaping'
+        },
+        {
+            id: 25,
+            slug: 'woodland-rocky-garden',
+            img: ProjectImg25,
+            tag: 'Garden Design · 2025',
+            name: 'Woodland Rocky Garden',
+            loc: 'Headwaters Region, Ontario',
+            category: 'Landscaping'
         }
     ];
 
@@ -212,6 +282,7 @@ export default function Projects() {
                     <button className={`filter-btn ${activeFilter === 'Landscaping' ? 'on' : ''}`} onClick={() => setActiveFilter('Landscaping')}>Landscaping</button>
                     <button className={`filter-btn ${activeFilter === 'Tree Care' ? 'on' : ''}`} onClick={() => setActiveFilter('Tree Care')}>Tree Care</button>
                     <button className={`filter-btn ${activeFilter === 'Maintenance' ? 'on' : ''}`} onClick={() => setActiveFilter('Maintenance')}>Maintenance</button>
+                    <button className={`filter-btn ${activeFilter === 'Snow Removal' ? 'on' : ''}`} onClick={() => setActiveFilter('Snow Removal')}>Snow Removal</button>
                     <button className={`filter-btn ${activeFilter === 'Permaculture' ? 'on' : ''}`} onClick={() => setActiveFilter('Permaculture')}>Permaculture</button>
                 </div>
 

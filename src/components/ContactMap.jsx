@@ -22,8 +22,8 @@ const homePin = L.divIcon({
     popupAnchor: [0, -44],
 })
 
-// Orton/Erin home base coordinates
-const HOME = [43.785, -80.065]
+// 8965 Erin-East Garafraxa Townline, Orton, ON (Carriage House)
+const HOME = [43.7775, -80.2330]
 
 // Soft radius circle showing approx service reach (~40km)
 const serviceCircleOptions = {
@@ -60,10 +60,10 @@ export default function ContactMap() {
             <Marker position={HOME} icon={homePin}>
                 <Tooltip permanent direction="top" offset={[0, -44]} opacity={1}>
                     <strong style={{ fontFamily: 'Jost, sans-serif', fontSize: '0.82rem', color: '#29292A' }}>
-                        WOLFF — Orton / Erin, ON
+                        WOLFF — Carriage House
                     </strong>
                     <br />
-                    <span style={{ fontSize: '0.72rem', color: '#6D7953' }}>Serving the Headwaters Region &amp; beyond</span>
+                    <span style={{ fontSize: '0.72rem', color: '#6D7953' }}>8965 Erin-East Garafraxa TL, Orton, ON</span>
                 </Tooltip>
             </Marker>
         </MapContainer>
