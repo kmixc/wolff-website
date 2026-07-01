@@ -297,6 +297,18 @@
     display: block;
 }
 
+/* ── TESTIMONIALS (centered, uneven last row) ── */
+#page-services .testi-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.8rem;
+}
+
+#page-services .testi-card {
+    flex: 0 1 calc(33.333% - 1.2rem);
+}
+
 /* ── MAINTENANCE PACKAGES ───────────── */
 .service-packages {
     padding: 8rem 0;

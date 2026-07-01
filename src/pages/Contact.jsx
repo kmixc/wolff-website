@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { useForm, ValidationError } from '@formspree/react'
 import ContactMap from '../components/ContactMap'
 
@@ -303,7 +304,8 @@ function TreeServicesForm() {
 
 // ── Main Contact Page ─────────────────────────────────────────────────────────
 export default function Contact() {
-    const [activeForm, setActiveForm] = useState('general')
+    const [searchParams] = useSearchParams()
+    const [activeForm, setActiveForm] = useState(searchParams.get('form') === 'tree' ? 'tree' : 'general')
     const activeInfo = CONTACT_SECTIONS[activeForm]
 
     return (

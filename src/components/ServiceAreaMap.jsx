@@ -49,7 +49,7 @@ const peelBoundary = [
 ]
 
 const towns = [
-    { name: 'Orton / Erin', note: 'Home Base', lat: 43.785, lng: -80.065, pin: homePin },
+    { name: 'Orton / Erin', note: 'Home Base — 8965 Erin East Garafraxa TL, Orton, ON L0N 1N0', lat: 43.785, lng: -80.065, pin: homePin },
     { name: 'Alton', note: 'Maintenance & Design', lat: 43.870, lng: -80.075, pin: townPin },
     { name: 'Terra Cotta', note: 'Landscaping & Tree Care', lat: 43.760, lng: -79.900, pin: townPin },
     { name: 'Caledon Village', note: 'Full Services', lat: 43.870, lng: -79.950, pin: townPin },

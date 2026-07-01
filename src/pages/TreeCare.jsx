@@ -14,9 +14,10 @@ export default function TreeCare() {
                         <div className="page-hero-eye">Services / Tree Care</div>
                         <h1 className="page-hero-title">Your trees are an<br /><em>investment. We protect it.</em></h1>
                         <div className="page-hero-rule"></div>
-                        <p className="page-hero-sub">Our team of fully insured arborists — pruning, health assessment, safe removal, and
-                            preventative programs — all without synthetic chemicals. We work with your trees' natural growth patterns, not
-                            against them.</p>
+                        <p className="page-hero-sub">Our team of fully insured arborists are here to help guide you with honesty and
+                            knowledge - from pruning, native tree planting, safe tree removal, orchard care, stump grinding, to tree care
+                            programs - we do everything with a full circle approach and no chemicals. We work with your trees' natural
+                            growth patterns.</p>
                     </div>
                 </section>
 
@@ -61,9 +62,11 @@ export default function TreeCare() {
                                     <path d="M15 34 L27 34" stroke="#8F9E8B" stroke-width="1.2" stroke-linecap="round" />
                                 </svg>
                             </div>
-                            <div className="tree-card-title">Health Assessments</div>
+                            <div className="tree-card-title">Health Assessments &amp; Young Tree Training</div>
                             <p className="tree-card-body">A thorough evaluation of your tree's structural integrity and vitality — identifying
-                                disease, pest pressure, root issues, and risk factors before they become expensive problems.</p>
+                                disease, pest pressure, root issues, and risk factors before they become expensive problems. For newly
+                                planted trees, this includes early structural pruning that sets them up for decades of strength and beauty
+                                — an ounce of training now saves a pound of remediation later.</p>
                         </div>
                         <div className="tree-card">
                             <div className="tree-icon">
@@ -103,14 +106,14 @@ export default function TreeCare() {
                         <div className="tree-card">
                             <div className="tree-icon">
                                 <svg viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M10 30 Q16 8 21 8 Q26 8 32 30" stroke="#6D7953" stroke-width="1.5" fill="none" />
-                                    <path d="M21 8 L21 38" stroke="#8F9E8B" stroke-width="1" stroke-linecap="round" stroke-dasharray="2 3" />
-                                    <circle cx="21" cy="26" r="2" fill="#6D7953" />
+                                    <path d="M31 12 A13 13 0 1 0 33 22" stroke="#6D7953" stroke-width="1.5" stroke-linecap="round" fill="none" />
+                                    <path d="M31 6 L31 12 L25 12" stroke="#8F9E8B" stroke-width="1.5" stroke-linecap="round"
+                                        stroke-linejoin="round" fill="none" />
                                 </svg>
                             </div>
-                            <div className="tree-card-title">Young Tree Training</div>
-                            <p className="tree-card-body">Early structural pruning for newly planted trees that sets them up for decades of
-                                strength and beauty. An ounce of training now saves a pound of remediation later.</p>
+                            <div className="tree-card-title">Full Circle Approach</div>
+                            <p className="tree-card-body">Keep materials on site, use wood chips for garden beds or trails, or let us cut
+                                sections or split wood for firewood. Or let us dispose of it all and give back to the community!</p>
                         </div>
                     </div>
                 </section>
@@ -203,7 +206,7 @@ export default function TreeCare() {
                     <h2 className="cta-title">Have a tree you're <em>worried about?</em></h2>
                     <p className="cta-sub">A risk assessment is the first step. We'll give you an honest evaluation of your tree's
                         condition and your options — no scare tactics.</p>
-                    <a href="/contact" className="btn-primary">Request an Assessment</a>
+                    <a href="/contact?form=tree#contact-form" className="btn-primary">Request an Assessment</a>
                 </section>
             </div>
         </div>

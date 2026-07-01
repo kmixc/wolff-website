@@ -12,12 +12,16 @@ import Tool1 from '../assets/images/tool-1.png'
 import Tool2 from '../assets/images/tool-2.png'
 import Tool3 from '../assets/images/tool-3.png'
 
-import Img from '../assets/images/hero.png'
-import Img1 from '../assets/images/hero-2.jpg'
-import Img2 from '../assets/images/hero-3.jpg'
-import Img3 from '../assets/images/hero-4.jpg'
-import Img4 from '../assets/images/hero-5.jpg'
-import Img5 from '../assets/images/hero-6.jpg'
+import Img1 from '../assets/images/home_1.jpg'
+import Img2 from '../assets/images/home_2.jpg'
+import Img3 from '../assets/images/home_3.jpg'
+import Img4 from '../assets/images/home_4.jpg'
+import Img5 from '../assets/images/home_5.jpg'
+import Img6 from '../assets/images/home_6.jpg'
+import Img7 from '../assets/images/home_7.jpg'
+import Img8 from '../assets/images/home_8.jpg'
+import Img9 from '../assets/images/home_9.jpg'
+import Img10 from '../assets/images/home_10.jpg'
 
 
 export default function Home() {
@@ -33,7 +37,7 @@ export default function Home() {
                     <div className="hero-wolff">Working on Land Forest &amp; Flower</div>
                     <p className="hero-body">
                         Organic. Ecological. Full circle.<br />
-                        We work with the land — never against it. Building living landscapes that nourish ecosystems, families, and communities across Wellington &amp; Peel counties.
+                        We work with the land. Building interspecies living landscapes that nourish ecosystems, families, and communities across Wellington & Peel counties.
                     </p>
                     <div className="hero-btns">
                         <a href="/services" className="btn-primary">Explore Our Services</a>
@@ -75,10 +79,10 @@ export default function Home() {
             <section className="ethos">
                 <div className="ethos-img-wrap">
                     <div className="ethos-main">
-                        <img src={Img1} alt='work4' />
+                        <img src={Img4} alt='work4' />
                     </div>
                     <div className="ethos-accent">
-                        <img src={Img2} alt='work3' />
+                        <img src={Img5} alt='work5' />
                     </div>
                     <div className="ethos-flag">Est. Orton, Ontario</div>
                     <div className="ethos-icon-deco">
@@ -170,10 +174,10 @@ export default function Home() {
 
             <div class="photo-band">
                 <div class="pb-photo">
-                    <img src={Img} alt="work1" />
+                    <img src={Img6} alt="work6" />
                 </div>
                 <div class="pb-photo">
-                    <img src={Img4} alt="work2" />
+                    <img src={Img7} alt="work7" />
                 </div>
                 <div class="pb-caption">
                     <h3 class="sec-title"><em>Beautiful</em> spaces that support life from the soil up.</h3>
@@ -186,7 +190,7 @@ export default function Home() {
                     <div className="sec-eye">Maintenance</div>
                     <h2 className="sec-title">Customize your <em>care package</em></h2>
                     <p className="sec-body" >
-                        Mix and match services into a yearly membership that works for your property. Organic, ecological care — no chemicals, ever.
+                        Mix and match services into a yearly membership that works for your property. From acreage country properties, in-town homes, to local businesses.
                     </p>
                 </div>
                 <div className="maint-grid">
@@ -200,6 +204,8 @@ export default function Home() {
                             <li>Aeration (add-on)</li>
                             <li>Lawn Lover drought treatment</li>
                             <li>Overseeding</li>
+                            <li>SOD install</li>
+                            <li>Native grass</li>
                         </ul>
                     </div>
                     <div className="maint-card">
@@ -212,6 +218,8 @@ export default function Home() {
                             <li>Weeding &amp; shaping</li>
                             <li>Soil amendments &amp; care</li>
                             <li>Weekly, biweekly or monthly</li>
+                            <li>Spring clean up</li>
+                            <li>Planting</li>
                         </ul>
                     </div>
                     <div className="maint-card">
@@ -230,8 +238,7 @@ export default function Home() {
                         <div className="maint-season">Winter</div>
                         <div className="maint-name">Snow Removal</div>
                         <ul className="maint-list">
-                            <li>Truck plow setup</li>
-                            <li>Tractor snowblower for flexibility</li>
+                            <li>Tractor snowblower setup</li>
                             <li>Smart pile management</li>
                             <li>Residential laneways &amp; driveways</li>
                             <li>Home-based businesses welcome</li>
@@ -250,21 +257,21 @@ export default function Home() {
                 <div className="testi-grid">
                     <div className="testi-card">
                         <div className="testi-stars">★★★★★</div>
-                        <p className="testi-quote">"WOLFF transformed our backyard into something we never thought possible. The rain garden they designed has changed how water moves across our whole property — and it's absolutely beautiful."</p>
-                        <div className="testi-name">Sarah &amp; Tom M.</div>
-                        <div className="testi-loc">Erin, ON</div>
+                        <p className="testi-quote">"You guys were incredible. I am so impressed with their efforts I can't even express how happy I was with the job they tackled."</p>
+                        <div className="testi-name">R.</div>
+                        <div className="testi-loc">Guelph, ON</div>
                     </div>
                     <div className="testi-card">
                         <div className="testi-stars">★★★★★</div>
-                        <p className="testi-quote">"As someone who cares deeply about not using chemicals near our children and animals, finding WOLFF was a game changer. They truly understand what it means to work with nature."</p>
-                        <div className="testi-name">Jennifer K.</div>
-                        <div className="testi-loc">Caledon Village, ON</div>
-                    </div>
-                    <div className="testi-card">
-                        <div className="testi-stars">★★★★★</div>
-                        <p className="testi-quote">"The pollinator garden they installed last spring is thriving. Our property feels alive in a way it never did before. Incredibly knowledgeable, warm, and passionate about what they do."</p>
-                        <div className="testi-name">David L.</div>
+                        <p className="testi-quote">"Had a large pine tree removed today by Wolff and was impressed with how well everything went and the clean up was amazing. Pricing was reasonable and everyone on site was professional! Highly recommend!"</p>
+                        <div className="testi-name">E.</div>
                         <div className="testi-loc">Orangeville, ON</div>
+                    </div>
+                    <div className="testi-card">
+                        <div className="testi-stars">★★★★★</div>
+                        <p className="testi-quote">"I feel so fortunate to have found you and Kurt! The garden looks extraordinary — even my neighbours have commented on it. Thank you very much for the work you put in on it, you're lovely people!"</p>
+                        <div className="testi-name">J.</div>
+                        <div className="testi-loc">Rockwood, ON</div>
                     </div>
                 </div>
             </section>
@@ -280,6 +287,14 @@ export default function Home() {
                     <p className="sec-body" >
                         Based in Orton/Erin, we serve communities throughout Wellington and Peel counties. Tree care &amp; removal extends further — as far north as Sturgeon Bay.
                     </p>
+                    <div className="towns">
+                        <div className="towns-lbl">Our Home Base</div>
+                        <p className="sec-body">
+                            8965 Erin East Garafraxa TL<br />
+                            Carriage House<br />
+                            Orton, ON L0N 1N0
+                        </p>
+                    </div>
                     <div className="towns">
                         <div className="towns-lbl">Communities We Serve</div>
                         <div className="towns-list">
@@ -301,13 +316,13 @@ export default function Home() {
                 <div className="fam-deco"><img src={Flower1} alt="" /></div>
                 <div className="fam-photos">
                     <div className="fam-ph tall">
-                        <img src={Img} alt="The WOLFF team at work" />
+                        <img src={Img9} alt="The WOLFF team at work" />
                     </div>
                     <div className="fam-ph short">
-                        <img src={Img2} alt="Tools of the trade" />
+                        <img src={Img8} alt="Tools of the trade" />
                     </div>
                     <div className="fam-ph short">
-                        <img src={Img3} alt="Growing from seed" />
+                        <img src={Img10} alt="Growing from seed" />
                     </div>
                 </div>
                 <div>
@@ -324,7 +339,7 @@ export default function Home() {
                 <img className="brand-banner-bg" src={Img5} alt="Regenerative landscape" />
                 <div className="brand-banner-overlay">
                     <img className="logo-lg" src={Logo} alt="WOLFF" />
-                    <p>"Rooted in organic land care — working with nature, never against it."</p>
+                    <p>"Creating beautiful interspecies living landscapes."</p>
                 </div>
             </div>
 

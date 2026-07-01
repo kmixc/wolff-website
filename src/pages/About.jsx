@@ -52,7 +52,7 @@ export default function About() {
                                 <div className="founder-photo-fill-2"></div>
                             </div>
                             <h3 className="founder-name">Alex Wolff</h3>
-                            <div className="founder-role">Co-Founder · Garden Design &amp; Planting Lead</div>
+                            <div className="founder-role">Ecological Landscape Designer · Organic Land Care</div>
                             <div className="founder-tree"><strong>Favourite Tree:</strong> The wise Pawpaw Tree</div>
                             <div className="founder-did-you-know">
                                 <div className="founder-dyk-label">Did You Know?</div>

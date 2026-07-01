@@ -9,7 +9,6 @@ import ProjectImg1 from '../assets/images/hero-38.jpg'
 import ProjectImg2 from '../assets/images/garden-1.jpg'
 import ProjectImg4 from '../assets/images/landscaping-4.jpg'
 import ProjectImg5 from '../assets/images/maintenance-1.jpg'
-import ProjectImg6 from '../assets/images/snowremoval-1.jpg'
 
 export default function Landscaping() {
     return (
@@ -59,9 +58,10 @@ export default function Landscaping() {
                 <div className="svc-detail-text">
                     <div className="sec-eye">What We Offer</div>
                     <h2 className="sec-title">Ecological design that <em>honours your land</em></h2>
-                    <p className="sec-body">We begin every landscaping project with a deep listen — to you, and to the land itself. What
-                        does the soil want to do? What water moves through here? What edges, slopes, and exposures does the property
-                        have? The design emerges from those answers.</p>
+                    <p className="sec-body">We begin every landscaping project with a deep listen — to you, and to the land itself. How
+                        is the soil health and texture? How does water move through this landscape? What edges, slopes, and wildlife does
+                        the property have? Who is using this land and for what purposes? Entertainment? Relaxation? Growing food? Kids
+                        activities? The design emerges from those answers.</p>
                     <div className="svc-scope">
                         <div className="scope-title">What's Included</div>
                         <ul className="scope-list">
@@ -71,17 +71,19 @@ export default function Landscaping() {
                             <li>Plant sourcing from certified organic nurseries</li>
                             <li>Full installation &amp; establishment care</li>
                             <li>Pollinator &amp; wildlife habitat integration</li>
-                            <li>Food forest &amp; edible landscape design</li>
+                            <li>Ecological and regenerative design</li>
+                            <li>Permaculture inspired - stacking functions</li>
+                            <li>Food forests, edible landscapes &amp; vegetable gardens (optional)</li>
                             <li>Optional ongoing maintenance plan</li>
                         </ul>
                     </div>
                     <div className="svc-pricing">
                         <div className="pricing-label">Starting From</div>
                         <div className="pricing-value">Custom Quoted</div>
-                        <div className="pricing-note">All projects are individually assessed. Contact us for a free discovery call and
-                            site visit.</div>
+                        <div className="pricing-note">All projects are individually assessed. Fill out the form below for us to schedule
+                            a site visit and provide you with a free quote.</div>
                     </div>
-                    <a href="/contact" className="btn-primary">Book a Consultation</a>&nbsp;&nbsp;
+                    <a href="/contact" className="btn-primary">Fill out the form - Book a site visit</a>&nbsp;&nbsp;
                     <a href="/projects" className="btn-ghost">View Projects</a>
                 </div>
             </div>
@@ -90,36 +92,38 @@ export default function Landscaping() {
                 <div className="gallery-head">
                     <div className="sec-eye">Recent Work</div>
                     <h2 className="sec-title">Projects that show what's <em>possible</em></h2>
+                    <p className="sec-body">From driveway grading and walkway projects, to small garden design projects, to
+                        large-scale, full permaculture-inspired whole backyard makeovers.</p>
                 </div>
                 <div className="gallery-grid">
-                    <Link to="/projects/erin-estate-native-restoration" className="gal-item tall gal-link" aria-label="View Erin Estate Native Restoration project">
+                    <Link to="/projects/erin-estate-native-restoration" className="gal-item tall gal-link" aria-label="View Erin Invasive Phragmite Removal Pond Clean Up project">
                         <div className="gal-fill gal-fill-a" >
-                            <img className="gal-image" src={ProjectImg1} alt="Erin Estate Native Restoration" />
-                            <span className="gal-label">Erin Estate Native Restoration</span>
+                            <img className="gal-image" src={ProjectImg1} alt="Erin Invasive Phragmite Removal Pond Clean Up" />
+                            <span className="gal-label">Erin Invasive Phragmite Removal Pond Clean Up</span>
                         </div>
                     </Link>
-                    <Link to="/projects/caledon-pollinator-garden" className="gal-item gal-link" aria-label="View Caledon Pollinator Garden project">
+                    <Link to="/projects/caledon-pollinator-garden" className="gal-item gal-link" aria-label="View Hillsburgh Native Pollinator Garden project">
                         <div className="gal-fill gal-fill-b">
-                            <img className="gal-image" src={ProjectImg2} alt="Caledon Pollinator Garden" />
-                            <span className="gal-label">Caledon Pollinator Garden</span>
+                            <img className="gal-image" src={ProjectImg2} alt="Hillsburgh Native Pollinator Garden" />
+                            <span className="gal-label">Hillsburgh Native Pollinator Garden</span>
                         </div>
                     </Link>
-                    <Link to="/projects/elora-rain-garden" className="gal-item gal-link" aria-label="View Elora Rain Garden project">
+                    <Link to="/projects/elora-rain-garden" className="gal-item gal-link" aria-label="View Cedar Hedge Planting for Privacy project">
                         <div className="gal-fill gal-fill-c">
-                            <img className="gal-image" src={ProjectImg6} alt="Elora Rain Garden" />
-                            <span className="gal-label">Elora Rain Garden</span>
+                            <img className="gal-image" src={LandscapingImg3} alt="Cedar Hedge Planting for Privacy" />
+                            <span className="gal-label">Cedar Hedge Planting for Privacy</span>
                         </div>
                     </Link>
-                    <Link to="/projects/guelph-food-forest" className="gal-item gal-link" aria-label="View Guelph Food Forest project">
+                    <Link to="/projects/guelph-food-forest" className="gal-item gal-link" aria-label="View Erin Country Regenerative Property Care project">
                         <div className="gal-fill gal-fill-d">
-                            <img className="gal-image" src={ProjectImg4} alt="Guelph Food Forest" />
-                            <span className="gal-label">Guelph Food Forest</span>
+                            <img className="gal-image" src={ProjectImg4} alt="Erin Country Regenerative Property Care" />
+                            <span className="gal-label">Erin Country Regenerative Property Care</span>
                         </div>
                     </Link>
-                    <Link to="/projects/mono-rural-estate" className="gal-item gal-link" aria-label="View Mono Rural Estate project">
+                    <Link to="/projects/mono-rural-estate" className="gal-item gal-link" aria-label="View Caledon Rural Estate Garden project">
                         <div className="gal-fill gal-fill-b">
-                            <img className="gal-image" src={ProjectImg5} alt="Mono Rural Estate" />
-                            <span className="gal-label">Mono Rural Estate</span>
+                            <img className="gal-image" src={ProjectImg5} alt="Caledon Rural Estate Garden" />
+                            <span className="gal-label">Caledon Rural Estate Garden</span>
                         </div>
                     </Link>
                 </div>
