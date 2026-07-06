@@ -1231,14 +1231,6 @@ footer {
 
 /* ── RESPONSIVE ── */
 @media(max-width:1080px) {
-    nav {
-        padding: 0 2rem
-    }
-
-    .nav-links {
-        display: none
-    }
-
     .hero {
         grid-template-columns: 1fr
     }

@@ -87,14 +87,14 @@ export default function SnowRemoval() {
                 <div className="svc-detail-body">
                     <div className="svc-detail-img">
                         <div className="svc-detail-img-main">
-                            <img className='svc-detail-img-main' src={SnowPhoto1} alt="Snow removal crew clearing a driveway" />
+                            <img src={SnowPhoto1} alt="Snow removal crew clearing a driveway" />
                         </div>
                         <div className="svc-detail-img-thumb-row">
                             <div className="svc-detail-img-thumb sdt1">
-                                <img className='svc-detail-img-thumb sdt1' src={SnowPhoto3} alt="Snow clearing with heavy equipment" />
+                                <img src={SnowPhoto3} alt="Snow clearing with heavy equipment" />
                             </div>
                             <div className="svc-detail-img-thumb sdt2">
-                                <img className='svc-detail-img-thumb sdt2' src={SnowPhoto4} alt="Snow plow clearing a rural driveway" />
+                                <img src={SnowPhoto4} alt="Snow plow clearing a rural driveway" />
                             </div>
                         </div>
                     </div>

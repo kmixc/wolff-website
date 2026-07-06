@@ -88,7 +88,7 @@ export default function PropertyMaintenance() {
                 <div className="svc-detail-body">
                     <div className="svc-detail-img">
                         <div className="svc-detail-img-main">
-                            <img className='svc-detail-img-main' src={MaintenancePhoto1} alt="Landscape maintenance crew at work" />
+                            <img src={MaintenancePhoto1} alt="Landscape maintenance crew at work" />
                         </div>
                     </div>
                     <div className="svc-detail-text">

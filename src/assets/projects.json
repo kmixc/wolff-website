@@ -406,5 +406,60 @@
             "Garden design & installation in cleared area",
             "Ongoing garden maintenance"
         ]
+    },
+    {
+        "id": 26,
+        "slug": "caledon-food-forest",
+        "name": "Caledon Food Forest",
+        "tag": "Permaculture · 2026",
+        "category": "Permaculture",
+        "location": "Caledon, Ontario",
+        "year": "2026 · In Progress",
+        "featured": false,
+        "coverImage": "projects/permaculture/caledon_food_forest/caledon_food_forest_1.jpg",
+        "images": [
+            "projects/permaculture/caledon_food_forest/caledon_food_forest_1.jpg",
+            "projects/permaculture/caledon_food_forest/caledon_food_forest_2.jpg",
+            "projects/permaculture/caledon_food_forest/caledon_food_forest_3.jpg"
+        ],
+        "summary": "A food forest taking shape on a Caledon property in 2026 — in progress, stay tuned. Logs from a basswood we cut down that was rotten inside are being inoculated with mushroom plugs to grow edible and medicinal mushrooms, alongside a pond project and native plantings for birds, food, and medicine.",
+        "scope": [
+            "Food forest design & installation — in progress",
+            "Basswood logs inoculated with mushroom plugs for edible & medicinal mushrooms",
+            "Pond project",
+            "Native planting projects for birds, food, and medicine"
+        ]
+    },
+    {
+        "id": 27,
+        "slug": "orton-vegetable-garden",
+        "name": "Orton Vegetable Garden",
+        "tag": "Permaculture · 2023",
+        "category": "Permaculture",
+        "location": "Orton, Ontario",
+        "year": "2023",
+        "featured": false,
+        "coverImage": "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_1.jpg",
+        "images": [
+            "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_1.jpg",
+            "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_2.jpg",
+            "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_3.jpg",
+            "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_4.jpg",
+            "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_5.jpg",
+            "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_6.jpg",
+            "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_7.jpg",
+            "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_8.jpg",
+            "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_9.jpg",
+            "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_10.jpg",
+            "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_11.jpg",
+            "projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_12.jpg"
+        ],
+        "summary": "A fenced vegetable garden built in Orton in 2023, with a welcoming arbor entrance and in-ground beds growing a full range of vegetables — including perennial crops like asparagus that return stronger every spring.",
+        "scope": [
+            "Vegetable garden design & construction",
+            "Wood-post and wire fencing with arbor entrance to keep wildlife out",
+            "In-ground vegetable beds",
+            "Perennial food crops including asparagus"
+        ]
     }
 ]

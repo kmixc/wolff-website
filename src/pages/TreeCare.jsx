@@ -2,6 +2,19 @@ import React from 'react'
 
 import TreeCareImg1 from '../assets/images/tree-3.jpg'
 import HeroImg from '../assets/images/hero-39.jpg'
+import TreeCarePhoto1 from '../assets/images/tree_care/tree_care_1.jpg'
+import TreeCarePhoto2 from '../assets/images/tree_care/tree_care_2.jpg'
+import TreeCarePhoto3 from '../assets/images/tree_care/tree_care_3.jpg'
+import TreeCarePhoto4 from '../assets/images/tree_care/tree_care_4.jpg'
+import TreeCarePhoto5 from '../assets/images/tree_care/tree_care_5.jpg'
+import TreeCarePhoto6 from '../assets/images/tree_care/tree_care_6.jpg'
+import TreeCarePhoto7 from '../assets/images/tree_care/tree_care_7.jpg'
+import TreeCarePhoto8 from '../assets/images/tree_care/tree_care_8.jpg'
+
+const treeCarePhotos = [
+    TreeCarePhoto1, TreeCarePhoto2, TreeCarePhoto3, TreeCarePhoto4,
+    TreeCarePhoto5, TreeCarePhoto6, TreeCarePhoto7, TreeCarePhoto8,
+]
 
 export default function TreeCare() {
     return (
@@ -34,6 +47,12 @@ export default function TreeCare() {
                     <div className="strip-item">
                         <div className="strip-dot"></div>Storm Damage Response
                     </div>
+                </div>
+
+                <div className="photo-row">
+                    {treeCarePhotos.map((photo, i) => (
+                        <img key={i} src={photo} alt={`WOLFF arborists at work ${i + 1}`} />
+                    ))}
                 </div>
 
                 <section className="tree-services">

@@ -170,6 +170,33 @@ body {
   flex-shrink: 0;
 }
 
+/* ── PHOTO ROW ── */
+.photo-row {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  gap: 0.35rem;
+  padding: 0.35rem;
+}
+
+.photo-row img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  display: block;
+}
+
+@media (max-width: 1024px) {
+  .photo-row {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .photo-row {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* ── SOUL CERTIFIED BADGE ── */
 .soul-badge {
   display: inline-flex;
@@ -1306,6 +1333,14 @@ footer {
   width: 100%;
   aspect-ratio: 3/2;
   overflow: hidden;
+}
+
+.svc-detail-img-main img,
+.svc-detail-img-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .sdt1 {

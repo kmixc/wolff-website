@@ -19,6 +19,8 @@ import ProjectImg22 from '../assets/images/projects/snow_removal/laneway_snow_re
 import ProjectImg23 from '../assets/images/projects/design/hillsburgh_fall_feature_garden_design/1.jpg'
 import ProjectImg24 from '../assets/images/projects/design/rockwood_memorial_grass_garden/main_1.jpg'
 import ProjectImg25 from '../assets/images/projects/design/woodland_rocky_garden/main_1.jpg'
+import ProjectImg26 from '../assets/images/projects/permaculture/caledon_food_forest/caledon_food_forest_1.jpg'
+import ProjectImg27 from '../assets/images/projects/permaculture/orton_vegetable_garden/orton_vegetable_garden_1.jpg'
 
 export default function Projects() {
     const [activeFilter, setActiveFilter] = useState('All Projects');
@@ -176,6 +178,24 @@ export default function Projects() {
             name: 'Woodland Rocky Garden',
             loc: 'Headwaters Region, Ontario',
             category: 'Landscaping'
+        },
+        {
+            id: 26,
+            slug: 'caledon-food-forest',
+            img: ProjectImg26,
+            tag: 'Permaculture · 2026 · In Progress',
+            name: 'Caledon Food Forest',
+            loc: 'Caledon, Ontario',
+            category: 'Permaculture'
+        },
+        {
+            id: 27,
+            slug: 'orton-vegetable-garden',
+            img: ProjectImg27,
+            tag: 'Permaculture · 2023',
+            name: 'Orton Vegetable Garden',
+            loc: 'Orton, Ontario',
+            category: 'Permaculture'
         }
     ];
 

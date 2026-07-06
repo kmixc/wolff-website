@@ -2,8 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import LandscapingImg1 from '../assets/images/landscaping-1.jpg'
-import LandscapingImg2 from '../assets/images/hero-7.jpg'
-import LandscapingImg3 from '../assets/images/hero-8.jpg'
+import LandscapingImg2 from '../assets/images/landscaping-4.jpg'
+import LandscapingImg3 from '../assets/images/landscaping-5.jpg'
 import HeroImg from '../assets/images/hero-6.jpg'
 import ProjectImg1 from '../assets/images/hero-38.jpg'
 import ProjectImg2 from '../assets/images/garden-1.jpg'
@@ -44,14 +44,14 @@ export default function Landscaping() {
             <div className="svc-detail-body">
                 <div className="svc-detail-img">
                     <div className="svc-detail-img-main">
-                        <img className='svc-detail-img-main' src={LandscapingImg1} alt="WOLFF crew at work" />
+                        <img src={LandscapingImg1} alt="WOLFF crew at work" />
                     </div>
                     <div className="svc-detail-img-thumb-row">
                         <div className="svc-detail-img-thumb sdt1">
-                            <img className='svc-detail-img-thumb sdt1' src={LandscapingImg2} alt="WOLFF crew at work" />
+                            <img src={LandscapingImg2} alt="WOLFF crew at work" />
                         </div>
                         <div className="svc-detail-img-thumb sdt2">
-                            <img className='svc-detail-img-thumb sdt2' src={LandscapingImg3} alt="WOLFF crew at work" />
+                            <img src={LandscapingImg3} alt="WOLFF crew at work" />
                         </div>
                     </div>
                 </div>

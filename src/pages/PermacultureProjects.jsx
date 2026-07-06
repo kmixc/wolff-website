@@ -106,7 +106,7 @@ export default function PermacultureProjects() {
                     </div>
                     <div className="svc-detail-img">
                         <div className="svc-detail-img-main">
-                            <img className='svc-detail-img-main' src={PermPhoto1} alt="Permaculture planting design" />
+                            <img src={PermPhoto1} alt="Permaculture planting design" />
                         </div>
                     </div>
                 </div>

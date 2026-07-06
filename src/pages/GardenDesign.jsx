@@ -51,14 +51,14 @@ export default function GardenDesign() {
                 <div className="svc-detail-body">
                     <div className="svc-detail-img">
                         <div className="svc-detail-img-main">
-                            <img className='svc-detail-img-main' src={GardenPhoto1} alt="Garden design planting" />
+                            <img src={GardenPhoto1} alt="Garden design planting" />
                         </div>
                         <div className="svc-detail-img-thumb-row">
                             <div className="svc-detail-img-thumb sdt1">
-                                <img className='svc-detail-img-thumb sdt1' src={GardenPhoto2} alt="Garden design detail" />
+                                <img src={GardenPhoto2} alt="Garden design detail" />
                             </div>
                             <div className="svc-detail-img-thumb sdt2">
-                                <img className='svc-detail-img-thumb sdt2' src={GardenPhoto3} alt="Garden planting texture" />
+                                <img src={GardenPhoto3} alt="Garden planting texture" />
                             </div>
                         </div>
                     </div>
